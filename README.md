@@ -21,9 +21,9 @@
 
 #### LLM
 
-**Revealing the Dark Secrets of BERT**. **EMNLP'2021**.
+**Revealing the Dark Secrets of BERT**. **EMNLP-IJCNLP'2019**.
 
-[paper](https://www.aminer.cn/pub/5d63adc33a55ac410be32803/revealing-the-dark-secrets-of-bert) **EMNLP-IJCNLP'2019**.
+[paper](https://www.aminer.cn/pub/5d63adc33a55ac410be32803/revealing-the-dark-secrets-of-bert) 
 
 *Olga Kovaleva,Alexey Romanov,Anna Rogers,Anna Rumshisky*
 
