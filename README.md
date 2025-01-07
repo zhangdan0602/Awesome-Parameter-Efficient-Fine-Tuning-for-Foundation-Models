@@ -20,6 +20,10 @@
 ### [Selective](#content)
 
 #### LLM
+**Revealing the Dark Secrets of BERT**. **EMNLP'2021**.
+
+[paper](https://www.aminer.cn/pub/5d63adc33a55ac410be32803/revealing-the-dark-secrets-of-bert) **EMNLP-IJCNLP'2019**.
+*Olga Kovaleva,Alexey Romanov,Anna Rogers,Anna Rumshisky*
 
 #### VFM
 
@@ -37,7 +41,7 @@
 
 ##### Adapter
 
-1. **Parameter-Efficient Transfer Learning for NLP**. **CoRR'2019**.
+1. **Parameter-Efficient Transfer Learning for NLP**. **CoRR'2019**. 
 
   *Neil Houlsby, Andrei Giurgiu, Stanislaw Jastrzebski, Bruna Morrone, Quentin de Laroussilhe, Andrea Gesmundo, Mona Attariyan, Sylvain Gelly*.
 
