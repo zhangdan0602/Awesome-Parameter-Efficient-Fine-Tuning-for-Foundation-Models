@@ -21,11 +21,13 @@
 
 #### LLM
 
-**Revealing the Dark Secrets of BERT**. **EMNLP-IJCNLP'2019**.
+##### Specific Selection
 
-[paper](https://www.aminer.cn/pub/5d63adc33a55ac410be32803/revealing-the-dark-secrets-of-bert) 
+1. **Revealing the Dark Secrets of BERT**. **EMNLP-IJCNLP'2019**.
 
-*Olga Kovaleva,Alexey Romanov,Anna Rogers,Anna Rumshisky*
+  [paper](https://www.aminer.cn/pub/5d63adc33a55ac410be32803/revealing-the-dark-secrets-of-bert) 
+
+  *Olga Kovaleva,Alexey Romanov,Anna Rogers,Anna Rumshisky*
 
 #### VFM
 
