@@ -23,19 +23,58 @@
 
 ##### Specific Selection
 
-1. **Revealing the Dark Secrets of BERT**. **EMNLP-IJCNLP'2019**.
+1.**Revealing the Dark Secrets of BERT**. **EMNLP-IJCNLP'2019**.
 
   [paper](https://www.aminer.cn/pub/5d63adc33a55ac410be32803/revealing-the-dark-secrets-of-bert) 
 
   *Olga Kovaleva,Alexey Romanov,Anna Rogers,Anna Rumshisky*
 
-#### VFM
+2.**BitFit: Simple Parameter-efficient Fine-tuning for Transformer-based Masked Language-models**. **ACL'2022**.
+ 
+[paper](https://www.aminer.cn/pub/60d1586491e011c16f0cb484/bitfit-simple-parameter-efficient-fine-tuning-for-transformer-based-masked-language-models)
+
+ *Elad Ben-Zaken, Shauli Ravfogel, Yoav Goldberg*
+
+3.**Parameter-Efficient Tuning with Special Token Adaptation**. **EACL'2023**.
+
+[paper](https://www.aminer.cn/pub/6392ac4190e50fcafd9f650e/parameter-efficient-tuning-with-special-token-adaptation)
+
+*Xiaocong Yang, James Y. Huang, Wenxuan Zhou, Muhao Chen*
+
+##### Automatic Selection
+
+1.**Masking As an Efficient Alternative to Finetuning for Pretrained Language Models**. **EMNLP'2020.**
+
+[paper](https://www.aminer.cn/pub/5ea8009091e0111d387ee767/masking-as-an-efficient-alternative-to-finetuning-for-pretrained-language-models)
+
+*Mengjie Zhao, Tao Lin, Fei Mi, Martin Jaggi, Hinrich Schutze*
+
+2.**AutoFreeze: Automatically Freezing Model Blocks to Accelerate Fine-tuning**. **arXiv'2021**.
+
+[paper](https://www.aminer.cn/pub/601a774291e0111e8877d8fd/autofreeze-automatically-freezing-model-blocks-to-accelerate-fine-tuning)
+
+*Yuhan Liu, Saurabh Agarwal, Shivaram Venkataraman*
+
+3.**Parameter-Efficient Transfer Learning with Diff Pruning**. **计算机科学'2021**.
+
+[paper](https://www.aminer.cn/pub/5fd8af0f91e0119b22c1f3a8/parameter-efficient-transfer-learning-with-diff-pruning)
+
+*Demi Guo, Alexander M. Rush, Yoon Kim*
+
+4.**Raise a Child in Large Language Model: Towards Effective and Generalizable Fine-tuning**. **EMNLP'2021**.
+
+[paper](https://aminer.cn/pub/614012c15244ab9dcb8166d0/raise-a-child-in-large-language-model-towards-effective-and-generalizable-fine)
+
+*Runxin Xu, Fuli Luo, Zhiyuan Zhang, Chuanqi Tan, Baobao Chang, Songfang Huang, Fei Huang*
+
+5.**Training Neural Networks with Fixed Sparse Masks**. **NIPS'2021**.
+
+[paper](https://www.aminer.cn/pub/619715fd5244ab9dcb185a4d/training-neural-networks-with-fixed-sparse-masks)
+
+*Yi-Lin Sung, Varun Nair, Colin Raffel*
 
 #### VFM
 
-#### VLM
-
-#### VGM
 
 #### MFM
 
