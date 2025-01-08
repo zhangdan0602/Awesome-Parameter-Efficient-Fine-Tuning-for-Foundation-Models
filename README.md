@@ -301,6 +301,14 @@ paper](https://www.aminer.cn/pub/65360d69939a5f4082b0a4b3/hadamard-adapter-an-ex
 [paper](https://www.aminer.cn/pub/616ce5a15244ab9dcbacfc38/spot-better-frozen-model-adaptation-through-soft-prompt-transfer)
 
 
+11.**On Transferability of Prompt Tuning for Natural Language Processing**. ****.
+
+*Yusheng Su, Xiaozhi Wang, Yujia Qin, Chi-Min Chan, Yankai Lin, Huadong Wang, Kaiyue Wen, Zhiyuan Liu, Peng Li, Juanzi Li, Lei Hou,Maosong Sun, Jie Zhou*
+
+[paper](https://www.aminer.cn/pub/6191cfa05244ab9dcb16be43/on-transferability-of-prompt-tuning-for-natural-language-processing)
+
+
+
 #### VFM
 
 #### VFM
