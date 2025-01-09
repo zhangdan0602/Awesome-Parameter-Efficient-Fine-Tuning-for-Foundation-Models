@@ -89,8 +89,32 @@
 
 #### VFM
 
+1.**Learning Transferable Visual Models From Natural La**. **INTERNATIONAL CONFERENCE ON MACHINE LEARNING, VOL 139（2021）**.
 
-#### MFM
+*Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, Ilya Sutskever*
+
+[paper](https://www.aminer.cn/pub/603d8d919e795eac93d4c16f/Learning%20Transferable%20Visual%20Models%20From%20Natural%20Language%20Supervision)
+
+2.**Convolutions Die Hard: Open-Vocabulary Segmentation with Single Frozen Convolutional CLIP**. **Advances in neural information processing systems（2023）**.
+
+*Qihang Yu, Ju He, Xueqing Deng, Xiaohui Shen, Liang-Chieh Chen*
+
+[paper](https://www.aminer.cn/pub/64d074c23fda6d7f06ce9796/Convolutions%20Die%20Hard:%20Open-Vocabulary%20Segmentation%20with%20Single%20Frozen%20%20Convolutional%20CLIP)
+
+3.**Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation**. **CoRR'2023**.
+
+*Jay Zhangjie Wu, Yixiao Ge, Xintao Wang, Stan Weixian Lei, Yuchao Gu, Yufei Shi, Wynne Hsu, Ying Shan, Xiaohu Qie, Mike Zheng Shou*
+
+[paper](https://www.aminer.cn/pub/63a51c5d90e50fcafde93c1b/tune-a-video-one-shot-tuning-of-image-diffusion-models-for-text)
+
+
+4.**Tuning LayerNorm in Attention: Towards Efficient Multi-Modal LLM Finetuning**. **arXiv'2023**.
+
+*Bingchen Zhao, Haoqin Tu, Chen Wei, Jieru Mei, Cihang Xie*
+
+[paper](https://www.aminer.cn/pub/65824f86939a5f4082a84b8f/Tuning%20LayerNorm%20in%20Attention:%20Towards%20Efficient%20Multi-Modal%20LLM%20%20Finetuning)
+
+
 
 ### [Addictive](#content)
 
@@ -265,14 +289,14 @@ paper](https://www.aminer.cn/pub/65360d69939a5f4082b0a4b3/hadamard-adapter-an-ex
   [paper](https://www.aminer.cn/pub/607ffd8d91e011772654f712/the-power-of-scale-for-parameter-efficient-prompt-tuning)
 
 
-6.**GPT Understands, Too**. **CORR'2024**.
+6.**GPT Understands, Too**. **CoRR'2024**.
 
 *Xiao Liu, Yanan Zheng, Zhengxiao Du, Ming Ding, Yujie Qian, Zhilin Yang, Jie Tang*
 
 [paper](https://www.aminer.cn/pub/6054886a91e0116f82f2d77f/GPT%20Understands,%20Too)
 
 
-7.**Differentiable Prompt Makes Pre-trained Language Models Better Few-shot Learners**. **CORR'2021**.
+7.**Differentiable Prompt Makes Pre-trained Language Models Better Few-shot Learners**. **CoRR'2021**.
 
 *Ningyu Zhang, Luoqiu Li, Xiang Chen, Shumin Deng, Zhen Bi, Chuanqi Tan, Fei Huang, Huajun Chen*
 
@@ -311,6 +335,70 @@ paper](https://www.aminer.cn/pub/65360d69939a5f4082b0a4b3/hadamard-adapter-an-ex
 
 #### VFM
 
+1.**Exploring Visual Prompts for Communicating Directional Awareness to Kindergarten Children**. **International journal of human-computer studies（2019）**.
+
+*Vicente Nacher, Sandra Jurdi, Javier Jaen, Fernando Garcia-Sanjuan*
+
+[paper](https://www.aminer.cn/pub/5cd54e7dced107d4c6eb0eb8/exploring-visual-prompts-for-communicating-directional-awareness-to-kindergarten-children)
+
+
+2.**Visual Prompt Tuning**. **European Conference on Computer Vision（2022）**.
+
+*Menglin Jia, Luming Tang, Bor-Chun Chen, Claire Cardie, Serge Belongie, Bharath Hariharan, Ser-Nam Lim*
+
+[paper](https://www.aminer.cn/pub/623be1965aee126c0f37aafc/visual-prompt-tuning)
+
+3.**Diversity-Aware Meta Visual Prompting**. **IEEE'2023**.
+
+*Qidong Huang, Xiaoyi Dong, Dongdong Chen, Weiming Zhang, Feifei Wang, Gang Hua, Nenghai Yu*
+
+[paper](https://www.aminer.cn/pub/641137ff90e50fcafd17bffc/diversity-aware-meta-visual-prompting)
+
+4.**Understanding and Improving Visual Prompting: A Label-Mapping Perspective**. **CVPR'2023**.
+
+*Aochuan Chen, Yuguang Yao, Pin-Yu Chen, Yihua Zhang, Sijia Liu*
+
+[paper](https://www.aminer.cn/pub/637c3dd690e50fcafd77ce05/understanding-and-improving-visual-prompting-a-label-mapping-perspective)
+
+
+5.**Unleashing the Power of Visual Prompting at the Pixel Level**. **CoRR'2022**.
+
+*Junyang Wu, Xianhang Li, Chen Wei, Huiyu Wang, Alan Yuille, Yuyin Zhou, Cihang Xie*
+
+[paper](https://www.aminer.cn/pub/63a2794d90e50fcafd294622/unleashing-the-power-of-visual-prompting-at-the-pixel-level)
+
+6.**LION: Implicit Vision Prompt Tuning**. **THIRTY-EIGHTH AAAI CONFERENCE ON ARTIFICIAL INTELLIGENCE, VOL 38 NO 6（2024）**.
+
+*Haixin Wang, Jianlong Chang, Yihang Zhai, Xiao Luo, Jinan Sun, Zhouchen Lin, Qi Tian*
+
+[paper](https://aminer.cn/pub/6417d04190e50fcafd83e0dc/LION:%20Implicit%20Vision%20Prompt%20Tuning)
+
+7.**An Image is Worth One Word: Personalizing Text-to-Image Generation Using Textual Inversion**. **arXiv'2022**.
+
+*Rinon Gal, Yuval Alaluf, Yuval Atzmon, Or Patashnik, Amit H. Bermano, Gal Chechik, Daniel Cohen-Or*
+
+[paper](https://www.aminer.cn/pub/63d7ae8490e50fcafdad2025/an-image-is-worth-one-word-personalizing-text-to-image-generation-using)
+
+8.**Learning to Prompt for Vision-Language Models**. **International Journal of Computer Vision（2022）**.
+
+*Zhou, Kaiyang, Yang, Jingkang, Loy, Chen Change, Liu, Ziwei*
+
+[paper](https://www.aminer.cn/pub/613192dd5244ab9dcb9e5af8/learning-to-prompt-for-vision-language-models)
+
+
+9.**Open-Vocabulary Semantic Segmentation with Mask-adapted CLIP**. **IEEE'2023**.
+
+*Feng Liang, Bichen Wu, Xiaoliang Dai, Kunpeng Li, Yinan Zhao, Hang Zhang, Peizhao Zhang, Peter Vajda, Diana Marculescu*
+
+[paper](https://www.aminer.cn/pub/6344dede90e50fcafd24d0b0/Open-Vocabulary%20Semantic%20Segmentation%20With%20Mask-Adapted%20CLIP)
+
+10.**BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models**. **ICML'2023**.
+
+*Junnan Li, DONGXU LI, Silvio Savarese, Steven Hoi*
+
+[paper](https://www.aminer.cn/pub/64be56873fda6d7f0634f12f/blip-bootstrapping-language-image-pre-training-with-frozen-image-encoders-and-large)
+
+
 #### VFM
 
 #### VLM
@@ -324,7 +412,7 @@ paper](https://www.aminer.cn/pub/65360d69939a5f4082b0a4b3/hadamard-adapter-an-ex
 
 #### LLM
 
-1.**LoRA: Low-Rank Adaptation of Large Language Models**. **CORR'2022**.
+1.**LoRA: Low-Rank Adaptation of Large Language Models**. **CoRR'2022**.
 
 *Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Weizhu Chen*
 
@@ -338,21 +426,21 @@ paper](https://www.aminer.cn/pub/65360d69939a5f4082b0a4b3/hadamard-adapter-an-ex
 [paper](https://www.aminer.cn/pub/646d8643d68f896efa0a326e/QLoRA:%20Efficient%20Finetuning%20of%20Quantized%20LLMs)
 
 
-3.**LoRA-FA: Memory-efficient Low-rank Adaptation for Large Language Models Fine-tuning**. **CORR'2023**.
+3.**LoRA-FA: Memory-efficient Low-rank Adaptation for Large Language Models Fine-tuning**. **CoRR'2023**.
 
 *Longteng Zhang, Lin Zhang, Shaohuai Shi, Xiaowen Chu, Bo Li*
 
 [paper](https://aminer.cn/pub/64f561813fda6d7f06f26c50/lora-fa-memory-efficient-low-rank-adaptation-for-large-language-models-fine)
 
 
-4.**Delta-LoRA: Fine-Tuning High-Rank Parameters with the Delta of Low-Rank Matrices**. **CORR'2023**.
+4.**Delta-LoRA: Fine-Tuning High-Rank Parameters with the Delta of Low-Rank Matrices**. **CoRR'2023**.
 
 *Bojia Zi, Xianbiao Qi, Lingzhi Wang, Jianan Wang, Kam-Fai Wong, Lei Zhang*
 
 [paper](https://www.aminer.cn/pub/64f7fc433fda6d7f06f42b86/delta-lora-fine-tuning-high-rank-parameters-with-the-delta-of-low)
 
 
-5.**Enabling Lightweight Fine-tuning for Pre-trained Language Model Compression Based on Matrix Product Operators**. **CORR'2021**.
+5.**Enabling Lightweight Fine-tuning for Pre-trained Language Model Compression Based on Matrix Product Operators**. **CoRR'2021**.
 
 *Peiyu Liu, Ze-Feng Gao, Wayne Xin Zhao, Z. Y. Xie, Zhong-Yi Lu, Ji-Rong Wen*
 
@@ -367,13 +455,13 @@ paper](https://www.aminer.cn/pub/65360d69939a5f4082b0a4b3/hadamard-adapter-an-ex
 [paper](https://aminer.cn/pub/6464af57d68f896efa351267/vs-parameter-efficient-low-rank-adapter-for-dense-predictions)
 
 
-2.**Mix-of-Show: Decentralized Low-Rank Adaptation for Multi-Concept Customization of Diffusion Models**. **CORR'2023**.
+2.**Mix-of-Show: Decentralized Low-Rank Adaptation for Multi-Concept Customization of Diffusion Models**. **CoRR'2023**.
 
 *Yuchao Gu, Xintao Wang, Jay Zhangjie Wu, Yujun Shi, Yunpeng Chen, Zihan Fan, WUYOU XIAO, Rui Zhao, Shuning Chang, Weijia Wu, Yixiao Ge, Ying Shan, Mike Zheng Shou*
 
 [paper](https://aminer.cn/pub/647572e0d68f896efa7b79a8/mix-of-show-decentralized-low-rank-adaptation-for-multi-concept-customization-of)
 
-3.**DiffuseKronA: A Parameter Efficient Fine-tuning Method for Personalized Diffusion Models**. **CORR'2024**.
+3.**DiffuseKronA: A Parameter Efficient Fine-tuning Method for Personalized Diffusion Models**. **CoRR'2024**.
 
 *Shyam Marjit, Harshit Singh, Nityanand Mathur, Sayak Paul, Chia-Mu Yu, Pin-Yu Chen*
 
@@ -415,20 +503,20 @@ paper](https://www.aminer.cn/pub/65360d69939a5f4082b0a4b3/hadamard-adapter-an-ex
 [paper](https://www.aminer.cn/pub/6168f1a35244ab9dcbe2ffa9/unipelt-a-unified-framework-for-parameter-efficient-language-model-tuning
 
 
-2.**Compacter: Efficient Low-Rank Hypercomplex Adapter Layers**. **CORR'2021**.
+2.**Compacter: Efficient Low-Rank Hypercomplex Adapter Layers**. **CoRR'2021**.
 
 *Rabeeh Karimi Mahabadi, James Henderson, Sebastian Ruder*
 
 [paper](https://www.aminer.cn/pub/60c2ec5491e0117e30ca28b5/compacter-efficient-low-rank-hypercomplex-adapter-layers)
 
-3.**Towards a Unified View of Parameter-Efficient Transfer Learning**. **CORR'2022**.
+3.**Towards a Unified View of Parameter-Efficient Transfer Learning**. **CoRR'2022**.
 
 *Junxian He, Chunting Zhou, Xuezhe Ma, Taylor Berg-Kirkpatrick, Graham Neubig*
 
 [paper](https://www.aminer.cn/pub/6164fcc15244ab9dcb24ce93/towards-a-unified-view-of-parameter-efficient-transfer-learning)
 
 
-4.**Parameter-Efficient Fine-Tuning Design Spaces**. **CORR'2023**.
+4.**Parameter-Efficient Fine-Tuning Design Spaces**. **CoRR'2023**.
 
 *Jiaao Chen, Aston Zhang, Xingjian Shi, Mu Li, Alex Smola, Diyi Yang*
 
