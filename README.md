@@ -23,22 +23,20 @@
 
 ##### Specific Selection
 
-1.**Revealing the Dark Secrets of BERT**. **EMNLP-IJCNLP'2019**.
+1. **Revealing the Dark Secrets of BERT**. **EMNLP-IJCNLP'2019**.
 
   *Olga Kovaleva,Alexey Romanov,Anna Rogers,Anna Rumshisky*
 
   [paper](https://www.aminer.cn/pub/5d63adc33a55ac410be32803/revealing-the-dark-secrets-of-bert) 
 
-2.**BitFit: Simple Parameter-efficient Fine-tuning for Transformer-based Masked Language-models**. **ACL'2022**.
- 
+2. **BitFit: Simple Parameter-efficient Fine-tuning for Transformer-based Masked Language-models**. **ACL'2022**.
 
  *Elad Ben-Zaken, Shauli Ravfogel, Yoav Goldberg*
 
 [paper](https://www.aminer.cn/pub/60d1586491e011c16f0cb484/bitfit-simple-parameter-efficient-fine-tuning-for-transformer-based-masked-language-models)
 
 
-3.**Parameter-Efficient Tuning with Special Token Adaptation**. **EACL'2023**.
-
+3. **Parameter-Efficient Tuning with Special Token Adaptation**. **EACL'2023**.
 
 *Xiaocong Yang, James Y. Huang, Wenxuan Zhou, Muhao Chen*
 
@@ -47,40 +45,35 @@
 
 ##### Automatic Selection
 
-1.**Masking As an Efficient Alternative to Finetuning for Pretrained Language Models**. **EMNLP'2020.**
-
+1. **Masking As an Efficient Alternative to Finetuning for Pretrained Language Models**. **EMNLP'2020.**
 
 *Mengjie Zhao, Tao Lin, Fei Mi, Martin Jaggi, Hinrich Schutze*
 
 [paper](https://www.aminer.cn/pub/5ea8009091e0111d387ee767/masking-as-an-efficient-alternative-to-finetuning-for-pretrained-language-models)
 
 
-2.**AutoFreeze: Automatically Freezing Model Blocks to Accelerate Fine-tuning**. **arXiv'2021**.
-
+2. **AutoFreeze: Automatically Freezing Model Blocks to Accelerate Fine-tuning**. **arXiv'2021**.
 
 *Yuhan Liu, Saurabh Agarwal, Shivaram Venkataraman*
 
 [paper](https://www.aminer.cn/pub/601a774291e0111e8877d8fd/autofreeze-automatically-freezing-model-blocks-to-accelerate-fine-tuning)
 
 
-3.**Parameter-Efficient Transfer Learning with Diff Pruning**. **计算机科学'2021**.
-
+3. **Parameter-Efficient Transfer Learning with Diff Pruning**. **ACL'2020**.
 
 *Demi Guo, Alexander M. Rush, Yoon Kim*
 
 [paper](https://www.aminer.cn/pub/5fd8af0f91e0119b22c1f3a8/parameter-efficient-transfer-learning-with-diff-pruning)
 
 
-4.**Raise a Child in Large Language Model: Towards Effective and Generalizable Fine-tuning**. **EMNLP'2021**.
-
+4. **Raise a Child in Large Language Model: Towards Effective and Generalizable Fine-tuning**. **EMNLP'2021**.
 
 *Runxin Xu, Fuli Luo, Zhiyuan Zhang, Chuanqi Tan, Baobao Chang, Songfang Huang, Fei Huang*
 
 [paper](https://aminer.cn/pub/614012c15244ab9dcb8166d0/raise-a-child-in-large-language-model-towards-effective-and-generalizable-fine)
 
 
-5.**Training Neural Networks with Fixed Sparse Masks**. **NeurIPS'2021**.
-
+5. **Training Neural Networks with Fixed Sparse Masks**. **NeurIPS'2021**.
 
 *Yi-Lin Sung, Varun Nair, Colin Raffel*
 
@@ -89,26 +82,28 @@
 
 #### VFM
 
-1.**Learning Transferable Visual Models From Natural La**. **INTERNATIONAL CONFERENCE ON MACHINE LEARNING, VOL 139（2021）**.
+1. **Learning Transferable Visual Models From Natural La**. **INTERNATIONAL CONFERENCE ON MACHINE LEARNING, VOL 139（2021）**.
 
 *Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, Ilya Sutskever*
 
 [paper](https://www.aminer.cn/pub/603d8d919e795eac93d4c16f/Learning%20Transferable%20Visual%20Models%20From%20Natural%20Language%20Supervision)
 
-2.**Convolutions Die Hard: Open-Vocabulary Segmentation with Single Frozen Convolutional CLIP**. **Advances in neural information processing systems（2023）**.
+2. **Convolutions Die Hard: Open-Vocabulary Segmentation with Single Frozen Convolutional CLIP**. **Advances in neural information processing systems（2023）**.
 
 *Qihang Yu, Ju He, Xueqing Deng, Xiaohui Shen, Liang-Chieh Chen*
 
 [paper](https://www.aminer.cn/pub/64d074c23fda6d7f06ce9796/Convolutions%20Die%20Hard:%20Open-Vocabulary%20Segmentation%20with%20Single%20Frozen%20%20Convolutional%20CLIP)
 
-3.**Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation**. **CoRR'2023**.
+#### VGM
+
+1. **Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation**. **CoRR'2023**.
 
 *Jay Zhangjie Wu, Yixiao Ge, Xintao Wang, Stan Weixian Lei, Yuchao Gu, Yufei Shi, Wynne Hsu, Ying Shan, Xiaohu Qie, Mike Zheng Shou*
 
 [paper](https://www.aminer.cn/pub/63a51c5d90e50fcafde93c1b/tune-a-video-one-shot-tuning-of-image-diffusion-models-for-text)
 
-
-4.**Tuning LayerNorm in Attention: Towards Efficient Multi-Modal LLM Finetuning**. **arXiv'2023**.
+#### VLM
+1. **Tuning LayerNorm in Attention: Towards Efficient Multi-Modal LLM Finetuning**. **arXiv'2023**.
 
 *Bingchen Zhao, Haoqin Tu, Chen Wei, Jieru Mei, Cihang Xie*
 
@@ -128,118 +123,224 @@
 
   [paper](https://www.aminer.cn/pub/5c61606ae1cd8eae1501e0f5/parameter-efficient-transfer-learning-for-nlp)
 
-2. **Exploring versatile generative language model via parameter-efficient transfer learning**. **EMNLP'2020**. 
+2. **AdapterFusion: Non-Destructive Task Composition for Transfer Learning**. **CoRR'2021**.
 
-  *Lin Zhaojiang, Madotto Andrea, Fung Pascale*. 
+*Jonas Pfeiffer, Aishwarya Kamath, Andreas Rueckle, Kyunghyun Cho, Iryna Gurevych*
 
-  [paper](https://www.aminer.cn/pub/5e8ef2ae91e011679da0f112/exploring-versatile-generative-language-model-via-parameter-efficient-transfer-learning)
+[paper](https://www.aminer.cn/pub/5eafe7e091e01198d3986605/AdapterFusion:%20Non-Destructive%20Task%20Composition%20for%20Transfer%20Learning)
 
-3. **MAD-X: An Adapter-Based Framework for Multi-Task Cross-Lingual Transfer**. **Intelligent Systems In Accounting,
+3. **AdaMix: Mixture-of-Adaptations for Parameter-efficient Model Tuning**.**EMNLP'2022**.
+
+*Yaqing Wang, Sahaj Agarwal, Subhabrata Mukherjee, Xiaodong Liu, Jing Gao, Ahmed Hassan Awadallah, Jianfeng Gao*.
+
+[paper](https://www.aminer.cn/pub/628ef0485aee126c0f82d92e/AdaMix:%20Mixture-of-Adaptations%20for%20Parameter-efficient%20Model%20Tuning)
+
+4. **MAD-X: An Adapter-Based Framework for Multi-Task Cross-Lingual Transfer**. **Intelligent Systems In Accounting,
  Finance &Management'2020**. 
 
   *Pfeiffer Jonas, Vulić Ivan,Gurevych Iryna, Ruder Sebastian*. 
  
   [paper](https://www.aminer.cn/pub/5eafe7e091e01198d3986542/mad-x-an-adapter-based-framework-for-multi-task-cross-lingual-transfer)
 
-4. **Counter-Interference Adapter for Multilingual Machine Translation**. **EMNLP'2021**.
-
-  *Yaoming Zhu, Jiangtao Feng, Chengqi Zhao, Mingxuan Wang, Lei Li*.
-  
-  [paper](https://aminer.cn/pub/619799ec91e011c8223730c6/counter-interference-adapter-for-multilingual-machine-translation)
-
-5. **AdapterDrop - On the Efficiency of Adapters in Transformers**. **EMNLP'2021**.
-
-  *Andreas Rücklé, Gregor Geigle, Max Glockner, Tilman Beck, Jonas Pfeiffer, Nils Reimers, Iryna Gurevych*.
-  
-  [paper](https://www.aminer.cn/pub/5f92b9db91e011edb3573b95/adapterdrop-on-the-efficiency-of-adapters-in-transformers)
-
-6. **Tiny-Attention Adapter: Contexts Are More Important Than the Number of Parameters**. **EMNLP'2022**.
-
-  *Hongyu Zhao, Hao Tan, Hongyuan Mei*.
-  
-  [paper](https://www.aminer.cn/pub/636482d890e50fcafdccb0cc/Tiny-Attention%20Adapter:%20Contexts%20Are%20More%20Important%20Than%20the%20Number%20of%20Parameters)
-
-
-7. **Parameter-efficient Multi-task Fine-tuning for Transformers via Shared Hypernetworks**.**EMNLP'2022**.
-
-*Rabeeh Karimi Mahabadi, Sebastian Ruder, Mostafa Dehghani, James Henderson*.
-
-[paper](https://www.aminer.cn/pub/60c2da8091e0117e30ca2817/parameter-efficient-multi-task-fine-tuning-for-transformers-via-shared-hypernetworks)
-
-
-8. **BAD-X: Bilingual Adapters Improve Zero-Shot Cross-Lingual Transfer**.**NAACL'2022**.
+5. **BAD-X: Bilingual Adapters Improve Zero-Shot Cross-Lingual Transfer**.**NAACL'2022**.
 
 *Marinela Parovic, Goran Glavas, Ivan Vulic, Anna Korhonen*.
 
 [paper](https://www.aminer.cn/pub/634d80f190e50fcafd4ef432/bad-x-bilingual-adapters-improve-zero-shot-cross-lingual-transfer)
 
+6. **AdapterDrop - On the Efficiency of Adapters in Transformers**. **EMNLP'2021**.
 
+  *Andreas Rücklé, Gregor Geigle, Max Glockner, Tilman Beck, Jonas Pfeiffer, Nils Reimers, Iryna Gurevych*.
+  
+  [paper](https://www.aminer.cn/pub/5f92b9db91e011edb3573b95/adapterdrop-on-the-efficiency-of-adapters-in-transformers)
 
-9. **AdaMix: Mixture-of-Adaptations for Parameter-efficient Model Tuning**.**EMNLP'2022**.
-
-*Yaqing Wang, Sahaj Agarwal, Subhabrata Mukherjee, Xiaodong Liu, Jing Gao, Ahmed Hassan Awadallah, Jianfeng Gao*.
-
-[paper](https://www.aminer.cn/pub/628ef0485aee126c0f82d92e/AdaMix:%20Mixture-of-Adaptations%20for%20Parameter-efficient%20Model%20Tuning)
-
-
-10. **AdapterBias: Parameter-efficient Token-dependent Representation Shift for Adapters in NLP Tasks**. **NAACL'2022**.
+7. **AdapterBias: Parameter-efficient Token-dependent Representation Shift for Adapters in NLP Tasks**. **NAACL'2022**.
 
 *Chin-Lun Fu, Zih-Ching Chen, Yun-Ru Lee, Hung-yi Lee*.
 
 [paper](https://www.aminer.cn/pub/62708f615aee126c0fa69008/adapterbias-parameter-efficient-token-dependent-representation-shift-for-adapters-in-nlp-tasks)
 
-
-11. **SparseAdapter: An Easy Approach for Improving the Parameter-Efficiency of Adapters**. **arXiv'2022**.
+8. **SparseAdapter: An Easy Approach for Improving the Parameter-Efficiency of Adapters**. **arXiv'2022**.
 
 *Shwai He, Liang Ding, Daize Dong, Miao Zhang, Dacheng Tao*.
 
 [paper](https://www.aminer.cn/pub/6344dede90e50fcafd24d1cc/sparseadapter-an-easy-approach-for-improving-the-parameter-efficiency-of-adapters)
 
-
-12. **LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning**. **NeurIPS'2022**.
+9. **LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning**. **NeurIPS'2022**.
 
 *Yi-Lin Sung, Jaemin Cho, Mohit Bansal*. 
 
 [paper](https://www.aminer.cn/pub/62a94e065aee126c0f9c02cd/lst-ladder-side-tuning-for-parameter-and-memory-efficient-transfer-learning)
 
+[//]: # ()
+[//]: # (2. **Exploring versatile generative language model via parameter-efficient transfer learning**. **EMNLP'2020**. )
 
-13. **MerA: Merging Pretrained Adapters For Few-Shot Learning**. **CoRR'2023**. 
+[//]: # ()
+[//]: # (  *Lin Zhaojiang, Madotto Andrea, Fung Pascale*. )
 
-*Shwai He, Run-Ze Fan, Liang Ding, Li Shen, Tianyi Zhou, Dacheng Tao*. 
+[//]: # ()
+[//]: # (  [paper]&#40;https://www.aminer.cn/pub/5e8ef2ae91e011679da0f112/exploring-versatile-generative-language-model-via-parameter-efficient-transfer-learning&#41;)
 
-[paper](https://www.aminer.cn/pub/64f00ff43fda6d7f06ecec7d/mera-merging-pretrained-adapters-for-few-shot-learning)
+[//]: # ()
+[//]: # (4. **Counter-Interference Adapter for Multilingual Machine Translation**. **EMNLP'2021**.)
 
+[//]: # ()
+[//]: # (  *Yaoming Zhu, Jiangtao Feng, Chengqi Zhao, Mingxuan Wang, Lei Li*.)
 
-14. **AdapterSoup: Weight Averaging to Improve Generalization of Pretrained Language Models**. **arXiv'2023**.
+[//]: # (  )
+[//]: # (  [paper]&#40;https://aminer.cn/pub/619799ec91e011c8223730c6/counter-interference-adapter-for-multilingual-machine-translation&#41;)
 
-*Alexandra Chronopoulou, Matthew E. Peters, Alexander Fraser, Jesse Dodge*.  
+[//]: # ()
+[//]: # (6. **Tiny-Attention Adapter: Contexts Are More Important Than the Number of Parameters**. **EMNLP'2022**.)
 
-[paper](https://www.aminer.cn/pub/63ec4dcd90e50fcafd66b158/adaptersoup-weight-averaging-to-improve-generalization-of-pretrained-language-models)
+[//]: # ()
+[//]: # (  *Hongyu Zhao, Hao Tan, Hongyuan Mei*.)
 
+[//]: # (  )
+[//]: # (  [paper]&#40;https://www.aminer.cn/pub/636482d890e50fcafdccb0cc/Tiny-Attention%20Adapter:%20Contexts%20Are%20More%20Important%20Than%20the%20Number%20of%20Parameters&#41;)
 
-15. **Hadamard Adapter: An Extreme Parameter-Efficient Adapter Tuning Method for Pre-trained Language Models**. **CIKM'2023**.
+[//]: # ()
+[//]: # (7. **Parameter-efficient Multi-task Fine-tuning for Transformers via Shared Hypernetworks**.**EMNLP'2022**.)
 
-*Yuyan Chen, Qiang Fu, Ge Fan, Lun Du, Jian-Guang Lou, Shi Han, Dongmei Zhang, Zhixu Li, Yanghua*.  
+[//]: # ()
+[//]: # (*Rabeeh Karimi Mahabadi, Sebastian Ruder, Mostafa Dehghani, James Henderson*.)
 
-paper](https://www.aminer.cn/pub/65360d69939a5f4082b0a4b3/hadamard-adapter-an-extreme-parameter-efficient-adapter-tuning-method-for-pre-trained)
+[//]: # ()
+[//]: # ([paper]&#40;https://www.aminer.cn/pub/60c2da8091e0117e30ca2817/parameter-efficient-multi-task-fine-tuning-for-transformers-via-shared-hypernetworks&#41;)
 
+[//]: # ()
+[//]: # (13. **MerA: Merging Pretrained Adapters For Few-Shot Learning**. **CoRR'2023**. )
 
-16. **Conditional Adapters: Parameter-efficient Transfer Learning with Fast Inference**. **NeurIPS'2023**. 
+[//]: # ()
+[//]: # (*Shwai He, Run-Ze Fan, Liang Ding, Li Shen, Tianyi Zhou, Dacheng Tao*. )
 
-*Tao Lei, Junwen Bai, Siddhartha Brahma, Joshua Ainslie, Kenton Lee, Yanqi Zhou, Nan Du, Vincent Y. Zhao, Yuexin Wu, Bo Li, Yu Zhang, Ming-Wei Chang*. 
+[//]: # ()
+[//]: # ([paper]&#40;https://www.aminer.cn/pub/64f00ff43fda6d7f06ecec7d/mera-merging-pretrained-adapters-for-few-shot-learning&#41;)
 
-[paper](https://www.aminer.cn/pub/643621a190e50fcafd665e94/conditional-adapters-parameter-efficient-transfer-learning-with-fast-inference)
+[//]: # ()
+[//]: # ()
+[//]: # (14. **AdapterSoup: Weight Averaging to Improve Generalization of Pretrained Language Models**. **arXiv'2023**.)
+
+[//]: # ()
+[//]: # (*Alexandra Chronopoulou, Matthew E. Peters, Alexander Fraser, Jesse Dodge*.  )
+
+[//]: # ()
+[//]: # ([paper]&#40;https://www.aminer.cn/pub/63ec4dcd90e50fcafd66b158/adaptersoup-weight-averaging-to-improve-generalization-of-pretrained-language-models&#41;)
+
+[//]: # ()
+[//]: # ()
+[//]: # (15. **Hadamard Adapter: An Extreme Parameter-Efficient Adapter Tuning Method for Pre-trained Language Models**. **CIKM'2023**.)
+
+[//]: # ()
+[//]: # (*Yuyan Chen, Qiang Fu, Ge Fan, Lun Du, Jian-Guang Lou, Shi Han, Dongmei Zhang, Zhixu Li, Yanghua*.  )
+
+[//]: # ()
+[//]: # (paper]&#40;https://www.aminer.cn/pub/65360d69939a5f4082b0a4b3/hadamard-adapter-an-extreme-parameter-efficient-adapter-tuning-method-for-pre-trained&#41;)
+
+[//]: # ()
+[//]: # ()
+[//]: # (16. **Conditional Adapters: Parameter-efficient Transfer Learning with Fast Inference**. **NeurIPS'2023**. )
+
+[//]: # ()
+[//]: # (*Tao Lei, Junwen Bai, Siddhartha Brahma, Joshua Ainslie, Kenton Lee, Yanqi Zhou, Nan Du, Vincent Y. Zhao, Yuexin Wu, Bo Li, Yu Zhang, Ming-Wei Chang*. )
+
+[//]: # ()
+[//]: # ([paper]&#40;https://www.aminer.cn/pub/643621a190e50fcafd665e94/conditional-adapters-parameter-efficient-transfer-learning-with-fast-inference&#41;)
 
 
 #### VFM
 
-#### VFM
+1. **Convolutional Bypasses Are Better Vision Transformer Adapters**. **arXiv'2022**.
 
-#### VLM
+*Shibo Jie, Zhi-Hong Deng*
+
+[paper](https://www.aminer.cn/pub/62d0db155aee126c0f9f10a4/Convolutional%20Bypasses%20Are%20Better%20Vision%20Transformer%20Adapters)
+
+2. **AdaptFormer: Adapting Vision Transformers for Scalable Visual Recognition**. **NeurIPS'2022**.
+
+*Sh[README.md](README.md)oufa Chen, Chongjian Ge, Zhan Tong, Jiangliu Wang, Yibing Song, Jue Wang, Ping Luo*
+
+[paper](https://www.aminer.cn/pub/629041ac5aee126c0fb5dbce/AdaptFormer:%20Adapting%20Vision%20Transformers%20for%20Scalable%20Visual%20%20Recognition)
+
+3. **Vision Transformer Adapter for Dense Predictions**. **ICLR'2023**.
+
+*Zhe Chen, Yuchen Duan, Wenhai Wang, Junjun He, Tong Lu, Jifeng Dai, Yu Qiao*
+
+[paper](https://www.aminer.cn/pub/628464665aee126c0facb311/Vision%20Transformer%20Adapter%20for%20Dense%20Predictions)
+
+4. **Side Adapter Network for Open-Vocabulary Semantic Segmentation**. **CVPR'2023**.
+
+*Mengde Xu, Zheng Zhang, Fangyun Wei, Han Hu, Xiang Bai*
+
+[paper](https://www.aminer.cn/pub/63f82b2b90e50fcafd05a1ab/Side%20Adapter%20Network%20for%20Open-Vocabulary%20Semantic%20Segmentation)
+
+5. **DTL: Disentangled Transfer Learning for Visual Recognition**. **AAAI'2024**.
+
+*Minghao Fu, Ke Zhu, Jianxin Wu*
+
+[paper](https://www.aminer.cn/pub/657a6a77939a5f4082cf3c41/dtl-disentangled-transfer-learning-for-visual-recognition)
+
 
 #### VGM
 
-#### MFM
+1. **T2I-Adapter: Learning Adapters to Dig out More Controllable Ability for Text-to-Image Diffusion Models**. **AAAI'2024**.
+
+*Chong Mou, Xintao Wang, Liangbin Xie, Yanze Wu, Jian Zhang, Zhongang Qi, Ying Shan*
+
+[paper](https://www.aminer.cn/pub/63eef09d90e50fcafda0d7ce/t-i-adapter-learning-adapters-to-dig-out-more-controllable-ability-for)
+
+
+2. **IP-Adapter: Text Compatible Image Prompt Adapter for Text-to-Image Diffusion Models**. **arXiv'2023**.
+
+*Hu Ye, Jun Zhang, Sibo Liu, Xiao Han, Wei Yang*
+
+[paper](https://www.aminer.cn/pub/64dafb293fda6d7f064e2c15/ip-adapter-text-compatible-image-prompt-adapter-for-text-to-image-diffusion)
+
+3. **I2V-Adapter: A General Image-to-Video Adapter for Diffusion Models**. **SIGGRAPH'2024**.
+
+*Xun Guo, Mingwu Zheng, Liang Hou, Yuan Gao, Yufan Deng, Pengfei Wan, Di Zhang, Yufan Liu, Weiming Hu, Zhengjun Zha, Haibin Huang, Chongyang Ma*
+
+[paper](https://www.aminer.cn/pub/658e4adb939a5f4082dbe437/I2V-Adapter:%20A%20General%20Image-to-Video%20Adapter%20for%20Diffusion%20Models)
+
+4. **Adding Conditional Control to Text-to-Image Diffusion Models**. **ICCV'2023**.
+
+*Lvmin Zhang, Anyi Rao, Maneesh Agrawala*
+
+[paper](https://www.aminer.cn/pub/63eafbd690e50fcafd813ef7/Adding%20Conditional%20Control%20to%20Text-to-Image%20Diffusion%20Models)
+
+5. **ControlNeXt: Powerful and Efficient Control for Image and Video Generation**. **arXiv'2024**.
+
+*Bohao Peng, Jian Wang, Yuechen Zhang, Wenbo Li, Ming-Chang Yang, Jiaya Jia*
+
+[paper](https://www.aminer.cn/pub/66bac1ca01d2a3fbfcd437ed/ControlNeXt:%20Powerful%20and%20Efficient%20Control%20for%20Image%20and%20Video%20Generation)
+
+
+#### VLM
+
+1. **LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention**. **CVPR'2023**.
+
+*Renrui Zhang, Jiaming Han, Chris Liu, Peng Gao, Aojun Zhou, Xiangfei Hu, Shilin Yan, Pan Lu, Hongsheng Li, Yu Qiao*
+
+[paper](https://www.aminer.cn/pub/6423ac7890e50fcafd55f26b/LLaMA-Adapter:%20Efficient%20Fine-tuning%20of%20Language%20Models%20with%20Zero-init%20Attention)
+
+2.**LLaMA-Adapter V2: Parameter-Efficient Visual Instruction Model**. **ICLR'2024**.
+
+*Peng Gao, Jiaming Han, Renrui Zhang, Ziyi Lin, Shijie Geng, Aojun Zhou, Wei Zhang, Pan Lu, Conghui He, Xiangyu Yue, Hongsheng Li, Yu Qiao*
+
+[paper](https://www.aminer.cn/pub/6456385bd68f896efacf2395/LLaMA-Adapter%20V2:%20Parameter-Efficient%20Visual%20Instruction%20Model)
+
+3. **CLIP-Adapter: Better Vision-Language Models with Feature Adapters**. **IJCV'2024**.
+
+*Peng Gao, Shijie Geng, Renrui Zhang, Teli Ma, Rongyao Fang, Yongfeng Zhang, Hongsheng Li, Yu Qiao*
+
+[paper](https://www.aminer.cn/pub/6164fcc15244ab9dcb24cfa7/clip-adapter-better-vision-language-models-with-feature-adapters)
+
+4. **Tip-Adapter: Training-free CLIP-Adapter for Better Vision-Language Modeling**. **ECCV‘2022**.
+
+*Renrui Zhang, Rongyao Fang, Peng Gao, Wei Zhang, Kunchang Li, Jifeng Dai, Yu Qiao, Hongsheng Li*
+
+[paper](https://www.aminer.cn/pub/6189e6d05244ab9dcb76e48f/tip-adapter-training-free-clip-adapter-for-better-vision-language-modeling)
+
 
 
 ### [Prompt](#content)
@@ -247,8 +348,6 @@ paper](https://www.aminer.cn/pub/65360d69939a5f4082b0a4b3/hadamard-adapter-an-ex
 #### LLM
 
 ##### Hard Prompt
-
-
 
 3.**Exploiting Cloze Questions for Few-Shot Text Classification and Natural Language Inference**. **EACL'2020**.
 
