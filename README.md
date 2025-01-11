@@ -170,7 +170,7 @@
 
    *Yi-Lin Sung, Jaemin Cho, Mohit Bansal*. 
 
-[paper](https://www.aminer.cn/pub/62a94e065aee126c0f9c02cd/lst-ladder-side-tuning-for-parameter-and-memory-efficient-transfer-learning)
+   [paper](https://www.aminer.cn/pub/62a94e065aee126c0f9c02cd/lst-ladder-side-tuning-for-parameter-and-memory-efficient-transfer-learning)
 
 [//]: # ()
 [//]: # (2. **Exploring versatile generative language model via parameter-efficient transfer learning**. **EMNLP'2020**. )
