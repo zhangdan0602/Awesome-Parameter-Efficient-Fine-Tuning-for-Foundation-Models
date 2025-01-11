@@ -323,7 +323,7 @@
 
    [paper](https://www.aminer.cn/pub/6423ac7890e50fcafd55f26b/LLaMA-Adapter:%20Efficient%20Fine-tuning%20of%20Language%20Models%20with%20Zero-init%20Attention)
 
-2.**LLaMA-Adapter V2: Parameter-Efficient Visual Instruction Model**. **ICLR'2024**.
+2. **LLaMA-Adapter V2: Parameter-Efficient Visual Instruction Model**. **ICLR'2024**.
 
    *Peng Gao, Jiaming Han, Renrui Zhang, Ziyi Lin, Shijie Geng, Aojun Zhou, Wei Zhang, Pan Lu, Conghui He, Xiangyu Yue, Hongsheng Li, Yu Qiao*
 
