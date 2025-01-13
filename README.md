@@ -28,14 +28,14 @@
    *Olga Kovaleva,Alexey Romanov,Anna Rogers,Anna Rumshisky*
 
    [[paper]](https://www.aminer.cn/pub/5d63adc33a55ac410be32803/revealing-the-dark-secrets-of-bert)
-   [[code]]()
+   [[code]]
 
 2. **BitFit: Simple Parameter-efficient Fine-tuning for Transformer-based Masked Language-models**. **ACL'2022**.
 
    *Elad Ben-Zaken, Shauli Ravfogel, Yoav Goldberg*
 
    [[paper]](https://www.aminer.cn/pub/60d1586491e011c16f0cb484/bitfit-simple-parameter-efficient-fine-tuning-for-transformer-based-masked-language-models)
-   [[code]]()
+   [[code]]
 
 3. **Parameter-Efficient Tuning with Special Token Adaptation**. **EACL'2023**.
 
@@ -51,14 +51,14 @@
    *Mengjie Zhao, Tao Lin, Fei Mi, Martin Jaggi, Hinrich Schutze*
 
    [[paper]](https://www.aminer.cn/pub/5ea8009091e0111d387ee767/masking-as-an-efficient-alternative-to-finetuning-for-pretrained-language-models)
-   [[code]]()
+   [[code]]
 
 2. **AutoFreeze: Automatically Freezing Model Blocks to Accelerate Fine-tuning**. **arXiv'2021**.
 
    *Yuhan Liu, Saurabh Agarwal, Shivaram Venkataraman*
 
    [[paper]](https://www.aminer.cn/pub/601a774291e0111e8877d8fd/autofreeze-automatically-freezing-model-blocks-to-accelerate-fine-tuning)
-   [[code]]()
+   [[code]]
 
 3. **Parameter-Efficient Transfer Learning with Diff Pruning**. **ACL'2020**.
 
@@ -79,7 +79,7 @@
    *Yi-Lin Sung, Varun Nair, Colin Raffel*
 
    [[paper]](https://www.aminer.cn/pub/619715fd5244ab9dcb185a4d/training-neural-networks-with-fixed-sparse-masks)
-   [[code]]()
+   [[code]]
 
 #### VFM
 
@@ -88,13 +88,13 @@
    *Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, Ilya Sutskever*
 
    [[paper]](https://www.aminer.cn/pub/603d8d919e795eac93d4c16f/Learning%20Transferable%20Visual%20Models%20From%20Natural%20Language%20Supervision)
-   [[code]]()
+   [[code]]
 2. **Convolutions Die Hard: Open-Vocabulary Segmentation with Single Frozen Convolutional CLIP**. **Advances in neural information processing systems（2023）**.
 
    *Qihang Yu, Ju He, Xueqing Deng, Xiaohui Shen, Liang-Chieh Chen*
 
    [[paper]](https://www.aminer.cn/pub/64d074c23fda6d7f06ce9796/Convolutions%20Die%20Hard:%20Open-Vocabulary%20Segmentation%20with%20Single%20Frozen%20%20Convolutional%20CLIP)
-   [[code]]()
+   [[code]]
 #### VGM
 
 1. **Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation**. **CoRR'2023**.
