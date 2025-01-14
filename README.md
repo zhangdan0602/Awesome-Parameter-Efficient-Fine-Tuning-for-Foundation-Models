@@ -271,7 +271,7 @@
 
 2. **AdaptFormer: Adapting Vision Transformers for Scalable Visual Recognition**. **NeurIPS 2022**.
 
-   *Sh[README.md](README.md)oufa Chen, Chongjian Ge, Zhan Tong, Jiangliu Wang, Yibing Song, Jue Wang, Ping Luo*
+   *Shoufa Chen, Chongjian Ge, Zhan Tong, Jiangliu Wang, Yibing Song, Jue Wang, Ping Luo*
 
    [[paper]](https://www.aminer.cn/pub/629041ac5aee126c0fb5dbce/AdaptFormer:%20Adapting%20Vision%20Transformers%20for%20Scalable%20Visual%20%20Recognition)
    [[code]]
@@ -435,23 +435,21 @@
    [[paper]](https://www.aminer.cn/pub/621454535aee126c0f2013ca/y-tuning-an-efficient-tuning-paradigm-for-large-scale-pre-trained-models)
    [[code]]
    
-##### Finetune Prompt
-
-1. **PPT: Pre-trained Prompt Tuning for Few-shot Learning**. **ACL 2021**.
+6. **PPT: Pre-trained Prompt Tuning for Few-shot Learning**. **ACL 2021**.
 
    *Yuxian Gu, Xu Han, Zhiyuan Liu, Minlie Huang*
 
    [[paper]](https://www.aminer.cn/pub/635276ab90e50fcafdb24990/ppt-pre-trained-prompt-tuning-for-few-shot-learning)
    [[code]]
    
-2. **SPoT: Better Frozen Model Adaptation Through Soft Prompt Transfer**. **ACL 2020**.
+7. **SPoT: Better Frozen Model Adaptation Through Soft Prompt Transfer**. **ACL 2020**.
 
    *Yuxian Gu, Xu Han, Zhiyuan Liu, Minlie Huang*
 
    [[paper]](https://www.aminer.cn/pub/616ce5a15244ab9dcbacfc38/spot-better-frozen-model-adaptation-through-soft-prompt-transfer)
    [[code]]
    
-3. **On Transferability of Prompt Tuning for Natural Language Processing**. **NAACL 2022**.
+8. **On Transferability of Prompt Tuning for Natural Language Processing**. **NAACL 2022**.
 
    *Yusheng Su, Xiaozhi Wang, Yujia Qin, Chi-Min Chan, Yankai Lin, Huadong Wang, Kaiyue Wen, Zhiyuan Liu, Peng Li, Juanzi Li, Lei Hou, Maosong Sun, Jie Zhou*
 
