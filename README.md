@@ -24,7 +24,7 @@
 
 1. **Revealing the Dark Secrets of BERT**. **EMNLP-IJCNLP 2019**.
 
-   *Olga Kovaleva, Alexey Romanov,Anna Rogers, Anna Rumshisky*
+   *Olga Kovaleva, Alexey Romanov, Anna Rogers, Anna Rumshisky*
 
    [[paper]](https://www.aminer.cn/pub/5d63adc33a55ac410be32803/revealing-the-dark-secrets-of-bert)
    [[code]]
@@ -453,7 +453,7 @@
    
 3. **On Transferability of Prompt Tuning for Natural Language Processing**. **NAACL 2022**.
 
-   *Yusheng Su, Xiaozhi Wang, Yujia Qin, Chi-Min Chan, Yankai Lin, Huadong Wang, Kaiyue Wen, Zhiyuan Liu, Peng Li, Juanzi Li, Lei Hou,Maosong Sun, Jie Zhou*
+   *Yusheng Su, Xiaozhi Wang, Yujia Qin, Chi-Min Chan, Yankai Lin, Huadong Wang, Kaiyue Wen, Zhiyuan Liu, Peng Li, Juanzi Li, Lei Hou, Maosong Sun, Jie Zhou*
 
    [[paper]](https://www.aminer.cn/pub/6191cfa05244ab9dcb16be43/on-transferability-of-prompt-tuning-for-natural-language-processing)
    [[code]]
