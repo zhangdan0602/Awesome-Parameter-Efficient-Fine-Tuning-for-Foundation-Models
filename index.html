@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+    content="Parameter-Efficient Fine-Tuning for Foundation Models">
+  <meta name="keywords" content="self-reflective instruction, scientific reasoning, scientific language model">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Parameter-Efficient Fine-Tuning for Foundation Models</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link rel="icon" href="./static/images/favicon_logosc/android-chrome-512x512.png">
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+        <a class="navbar-item" href="https://zhangdan0602.github.io/">
+          <span class="icon">
+            <i class="fas fa-home"></i>
+          </span>
+        </a>
+
+        <!-- <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://hypernerf.github.io">
+            HyperNeRF
+          </a>
+          <a class="navbar-item" href="https://nerfies.github.io">
+            Nerfies
+          </a>
+          <a class="navbar-item" href="https://latentfusion.github.io">
+            LatentFusion
+          </a>
+          <a class="navbar-item" href="https://photoshape.github.io">
+            PhotoShape
+          </a>
+        </div>
+      </div> -->
+      </div>
+
+    </div>
+  </nav>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Parameter-Efficient Fine-Tuning for Foundation Models</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://zhangdan0602.github.io/">Dan Zhang</a><sup style="color:#6fbf73;">1,2</sup>,</span>
+<!--              <span class="author-block">-->
+<!--                <a target="_blank" href="https://acbull.github.io/">Ziniu Hu</a><sup-->
+<!--                  style="color:#ed4b82">3</sup>,</span>-->
+<!--              <span class="author-block">-->
+<!--                <a>Sining Zhoubian</a><sup style="color:#6fbf73;">1,2</sup>,-->
+<!--              </span>-->
+<!--              <span class="author-block">-->
+<!--                <a target="_blank" href="https://zxdu.xyz/">Zhengxiao Du</a><sup style="color:#6fbf73;">1,2</sup>,-->
+<!--              </span>-->
+<!--              <span class="author-block">-->
+<!--                <a target="_blank" href="https://yangky11.github.io/">Kaiyu Yang</a><sup style="color:#ed4b82">3</sup>,-->
+<!--              </span>-->
+<!--              <br>-->
+<!--              <span class="author-block">-->
+<!--                <a>Zihan Wang</a><sup style="color:#6fbf73;">1,2</sup>,-->
+<!--              </span>-->
+<!--              <span class="author-block">-->
+<!--                <a target="_blank" href="http://www.yisongyue.com/">Yisong Yue</a><sup style="color:#ed4b82">3</sup>,-->
+<!--              </span>-->
+              <span class="author-block">
+                <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Yuxiao Dong</a><sup
+                  style="color:#6fbf73;">1</sup>,
+              </span>
+              <span class="author-block">
+                <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a><sup
+                  style="color:#6fbf73;">1</sup>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup style="color:#6fbf73;">1</sup>The Knowledge Engineering Group (KEG),
+                Tsinghua University,</span>
+              <span class="author-block"><sup style="color:#6fbf73;">2</sup>Zhipu AI,</span>
+<!--              <span class="author-block"><sup style="color:#ed4b82">3</sup>California Institute of Technology</span>-->
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/2401.07950" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2401.07950" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <!-- Code Link. -->
+                <span class="link-block">
+                  <a href="https://github.com/THUDM/SciGLM" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+                <!-- Model Link. -->
+<!--                <span class="link-block">-->
+<!--                  <a href="https://huggingface.co/zd21/SciGLM-6B"-->
+<!--                    class="external-link button is-normal is-rounded is-dark">-->
+<!--                    <span class="icon">-->
+<!--                      <p style="font-size:18px">🤗</p>-->
+<!--                    </span>-->
+<!--                    <span>Model</span>-->
+<!--                  </a>-->
+<!--                </span>-->
+                <!-- Dataset Link. -->
+<!--                <span class="link-block">-->
+<!--                  <a href="https://huggingface.co/datasets/zd21/SciInstruct"-->
+<!--                    class="external-link button is-normal is-rounded is-dark">-->
+<!--                    <span class="icon">-->
+<!--                      <i class="fa fa-database"></i>-->
+<!--                    </span>-->
+<!--                    <span>Data</span>-->
+<!--                  </a>-->
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="section">
+    <div class="container">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              This survey delves into the realm of Parameter-Efficient Fine-Tuning (PEFT) within the context of Foundation Models (FMs).
+              PEFT, a cost-effective fine-tuning technique, minimizes parameters and computational complexity while striving for optimal downstream task performance. FMs, like ChatGPT, DALL-E, and LLaVA specialize in language understanding, generative tasks, and multimodal tasks, trained on diverse datasets spanning text, images, and videos.
+              The diversity of FMs guides various adaptation strategies for PEFT. Therefore, this survey aims to provide a comprehensive survey of PEFT techniques applied to diverse FMs, to address the critical gaps in understanding the techniques, trends, and applications.
+              We start by providing a detailed development of FMs and PEFT. Subsequently, we systematically review the key categories and core mechanisms of PEFT across diverse FMs to offer a comprehensive understanding of trends. We also explore the most recent applications across various FMs to demonstrate the versatility of PEFT, shedding light on the integration of systematic PEFT methods with a range of FMs.
+              Furthermore, we identify potential research and development directions for improving PEFTs in the future. This survey provides a valuable resource for both novice and experienced researchers seeking to understand and use the power of PEFT across FMs.
+            </p>
+
+          </div>
+        </div>
+      </div>
+      <!--/ Abstract. -->
+
+      <div class="container">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+<!--            <h2 class="title is-3">Average Accuracy</em></strong></h2>-->
+            <div class="content has-text-justified">
+              <p style="text-align: center;">
+                <img class="center-block org-banner" src="static/images/trend.png" width="60%">
+              </p>
+              <p style="text-align: center;">
+                Figure 1: An overview of trends in PEFT methods in various FMs (LLM, VFM, VLM, MFM, and VGM). The number of citations from Semantic Scholar serves as a trend indicator.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <section>
+    <div class="columns is-centered m-6">
+      <div class="column is-full has-text-centered content">
+        <h2 class="title is-3">Examples Generated with <strong>SciGLM</strong></h2>
+        <p>Some examples in SciBench that have been solved accurately with <strong>SciGLM</strong> (32B).
+          They show that after instruction-tuning, the <strong>SciGLM</strong> learns skills/behaviors to first
+          analyze the knowledge required for each problem, and then step-by-step solve the problem with correct
+          formula and calculations.
+        </p>
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/generated_examples/quan.png" alt="quan" width="100%" />
+              <p><strong>Quantum Chemistry</strong> problem
+              </p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/generated_examples/stat.png" alt="stat" width="100%" />
+              <p><strong>Statistics</strong> problem</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/generated_examples/quan2.png" alt="quan2" width="100%" />
+              <p><strong>Quantum Chemistry</strong> problem</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/generated_examples/stat3.png" alt="stat2" width="100%" />
+              <p><strong>Statistics</strong> problem</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/generated_examples/stat2.png" alt="stat3" width="100%" />
+              <p><strong>Statistics</strong> problem</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Our Dataset: <strong><em>SciInstruct</em></strong></h2>
+          <div class="content has-text-justified">
+            <a href="https://arxiv.org/abs/2401.07950" target="_blank" rel="external">
+              <img class="center-block org-banner" src="static/images/SciInstruct.png">
+            </a>
+            <p>
+              Figure 2: The pipeline of constructing <strong><em>SciInstruct</em></strong>. On the far left is a mix of
+              training
+              datasets.
+              The purpose of the annotation is to supplement chain-of-thought processes with reflective generation.
+              The goal of the filter is to train an instruction-quality classifier and only keep high-quality reasoning
+              traces as instructions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <!-- <h2 class="title is-3">Domain & Question Type Proportions</h2> -->
+          <div class="content has-text-justified">
+            <a href="" target="_blank" rel="external">
+              <img class="center-block org-banner" src="static/images/domain_question_type.png">
+            </a>
+            <p style="text-align: center;">
+              Figure 3: Domain and question type proportions of <strong><em>SciInstruct</em></strong>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="columns is-centered m-6">
+      <div class="column is-full has-text-centered content">
+        <h2 class="title is-3">Examples in <strong><em>SciInstruct</em></strong></h2>
+        <!-- <p>One example for each <b>subject</b> collected with <strong><em>SciInstruct</em></strong></p> -->
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/sci_instruction_examples/math.png" alt="math" width="100%" />
+              <p>Math</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/sci_instruction_examples/physics.png" alt="physics" width="100%" />
+              <p>Physics</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/sci_instruction_examples/chemistry.png" alt="chemistry" width="100%" />
+              <p>Chemistry</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/sci_instruction_examples/formal.png" alt="formal" width="100%" />
+              <p>Formal Proofs (Lean)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Overall Scientific Results</em></strong></h2>
+          <div class="content has-text-justified">
+            <p style="text-align: center;">
+              <a href="https://arxiv.org/abs/2401.07950" target="_blank" rel="external">
+                <img class="center-block org-banner" src="static/images/Sci_Results.png" width="60%"
+                  style="display: inline-block;">
+              </a>
+            </p>
+            <p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Overall Mathematical Results</em></strong></h2>
+          <div class="content has-text-justified">
+            <p style="text-align: center;">
+              <a href="https://arxiv.org/abs/2401.07950" target="_blank" rel="external">
+                <img class="center-block org-banner" src="static/images/Math_Results.png" width="60%"
+                  style="display: inline-block;">
+              </a>
+            </p>
+            <p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title is-3 has-text-centered">Reference</h2>
+      <p>If you find our work helpful, please kindly cite our paper:</p>
+      <pre><code>@article{zhang2024sciglm,
+        title={Sciglm: Training scientific language models with self-reflective instruction annotation and tuning},
+        author={Zhang, Dan and Hu, Ziniu and Zhoubian, Sining and Du, Zhengxiao and Yang, Kaiyu and Wang, Zihan and Yue, Yisong and Dong, Yuxiao and Tang, Jie},
+        journal={arXiv preprint arXiv:2401.07950},
+        year={2024}
+      }</code></pre>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <a class="icon-link" href="./static/videos/nerfies_paper.pdf">
+          <i class="fas fa-file-pdf"></i>
+        </a>
+        <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+            <p>
+              This means you are free to borrow the <a href="https://github.com/nerfies/nerfies.github.io">source
+                code</a> of this website,
+              we just ask that you link back to this page in the footer.
+              Please remember to remove the analytics code included in the header of the website which
+              you do not want on your website.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
