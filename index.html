@@ -216,8 +216,8 @@
               <p style="text-align: center;">
                 <img class="center-block org-banner" src="static/images/trend.png" width="60%">
               </p>
-              <p style="text-align: center;">
-                Figure 1: An overview of trends in PEFT methods in various FMs (LLM, VFM, VLM, MFM, and VGM). The number of citations from Semantic Scholar serves as a trend indicator.
+              <p style="text-align: center;"><strong>
+                Figure 1: An overview of trends in PEFT methods in various FMs (LLM, VFM, VLM, MFM, and VGM). The number of citations from Semantic Scholar serves as a trend indicator.</strong>
               </p>
             </div>
           </div>
@@ -231,158 +231,15 @@
   <section>
     <div class="columns is-centered m-6">
       <div class="column is-full has-text-centered content">
-        <h2 class="title is-3">Examples Generated with <strong>SciGLM</strong></h2>
-        <p>Some examples in SciBench that have been solved accurately with <strong>SciGLM</strong> (32B).
-          They show that after instruction-tuning, the <strong>SciGLM</strong> learns skills/behaviors to first
-          analyze the knowledge required for each problem, and then step-by-step solve the problem with correct
-          formula and calculations.
-        </p>
         <div id="results-carousel" class="carousel results-carousel">
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/generated_examples/quan.png" alt="quan" width="100%" />
-              <p><strong>Quantum Chemistry</strong> problem
+              <img src="static/images/overview.png" alt="quan" width="100%" />
+              <p><strong>Fig. 2: Left: Versatile scenarios and applications in the era of foundation model. Right: A detailed illustration of four common
+parameter-efficient fine-tuning methods (Additive, Selective, Reparameterization, and Prompt Fine-tuning).</strong>
               </p>
             </div>
           </div>
-          <div class="box m-5">
-            <div class="content has-text-centered">
-              <img src="static/images/generated_examples/stat.png" alt="stat" width="100%" />
-              <p><strong>Statistics</strong> problem</p>
-            </div>
-          </div>
-          <div class="box m-5">
-            <div class="content has-text-centered">
-              <img src="static/images/generated_examples/quan2.png" alt="quan2" width="100%" />
-              <p><strong>Quantum Chemistry</strong> problem</p>
-            </div>
-          </div>
-          <div class="box m-5">
-            <div class="content has-text-centered">
-              <img src="static/images/generated_examples/stat3.png" alt="stat2" width="100%" />
-              <p><strong>Statistics</strong> problem</p>
-            </div>
-          </div>
-          <div class="box m-5">
-            <div class="content has-text-centered">
-              <img src="static/images/generated_examples/stat2.png" alt="stat3" width="100%" />
-              <p><strong>Statistics</strong> problem</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-
-  <section class="section">
-    <div class="container">
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3">Our Dataset: <strong><em>SciInstruct</em></strong></h2>
-          <div class="content has-text-justified">
-            <a href="https://arxiv.org/abs/2401.07950" target="_blank" rel="external">
-              <img class="center-block org-banner" src="static/images/SciInstruct.png">
-            </a>
-            <p>
-              Figure 2: The pipeline of constructing <strong><em>SciInstruct</em></strong>. On the far left is a mix of
-              training
-              datasets.
-              The purpose of the annotation is to supplement chain-of-thought processes with reflective generation.
-              The goal of the filter is to train an instruction-quality classifier and only keep high-quality reasoning
-              traces as instructions.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <!-- <h2 class="title is-3">Domain & Question Type Proportions</h2> -->
-          <div class="content has-text-justified">
-            <a href="" target="_blank" rel="external">
-              <img class="center-block org-banner" src="static/images/domain_question_type.png">
-            </a>
-            <p style="text-align: center;">
-              Figure 3: Domain and question type proportions of <strong><em>SciInstruct</em></strong>.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="columns is-centered m-6">
-      <div class="column is-full has-text-centered content">
-        <h2 class="title is-3">Examples in <strong><em>SciInstruct</em></strong></h2>
-        <!-- <p>One example for each <b>subject</b> collected with <strong><em>SciInstruct</em></strong></p> -->
-        <div id="results-carousel" class="carousel results-carousel">
-          <div class="box m-5">
-            <div class="content has-text-centered">
-              <img src="static/images/sci_instruction_examples/math.png" alt="math" width="100%" />
-              <p>Math</p>
-            </div>
-          </div>
-          <div class="box m-5">
-            <div class="content has-text-centered">
-              <img src="static/images/sci_instruction_examples/physics.png" alt="physics" width="100%" />
-              <p>Physics</p>
-            </div>
-          </div>
-          <div class="box m-5">
-            <div class="content has-text-centered">
-              <img src="static/images/sci_instruction_examples/chemistry.png" alt="chemistry" width="100%" />
-              <p>Chemistry</p>
-            </div>
-          </div>
-          <div class="box m-5">
-            <div class="content has-text-centered">
-              <img src="static/images/sci_instruction_examples/formal.png" alt="formal" width="100%" />
-              <p>Formal Proofs (Lean)</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <section class="section">
-    <div class="container">
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3">Overall Scientific Results</em></strong></h2>
-          <div class="content has-text-justified">
-            <p style="text-align: center;">
-              <a href="https://arxiv.org/abs/2401.07950" target="_blank" rel="external">
-                <img class="center-block org-banner" src="static/images/Sci_Results.png" width="60%"
-                  style="display: inline-block;">
-              </a>
-            </p>
-            <p>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3">Overall Mathematical Results</em></strong></h2>
-          <div class="content has-text-justified">
-            <p style="text-align: center;">
-              <a href="https://arxiv.org/abs/2401.07950" target="_blank" rel="external">
-                <img class="center-block org-banner" src="static/images/Math_Results.png" width="60%"
-                  style="display: inline-block;">
-              </a>
-            </p>
-            <p>
-            </p>
           </div>
         </div>
       </div>
