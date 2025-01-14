@@ -87,14 +87,14 @@
    *Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, Ilya Sutskever*
 
    [[paper]](https://www.aminer.cn/pub/603d8d919e795eac93d4c16f/Learning%20Transferable%20Visual%20Models%20From%20Natural%20Language%20Supervision)
-   [[code]]
+   [[code]](https://github.com/OpenAI/CLIP)
 
 2. **Convolutions Die Hard: Open-Vocabulary Segmentation with Single Frozen Convolutional CLIP**. **NeurIPS 2023**.
 
    *Qihang Yu, Ju He, Xueqing Deng, Xiaohui Shen, Liang-Chieh Chen*
 
    [[paper]](https://www.aminer.cn/pub/64d074c23fda6d7f06ce9796/Convolutions%20Die%20Hard:%20Open-Vocabulary%20Segmentation%20with%20Single%20Frozen%20%20Convolutional%20CLIP)
-   [[code]]
+   [[code]](https://github.com/bytedance/fc-clip)
 
 #### VGM
 
@@ -125,21 +125,21 @@
    *Neil Houlsby, Andrei Giurgiu, Stanislaw Jastrzebski, Bruna Morrone, Quentin de Laroussilhe, Andrea Gesmundo, Mona Attariyan, Sylvain Gelly*.
 
    [[paper]](https://www.aminer.cn/pub/5c61606ae1cd8eae1501e0f5/parameter-efficient-transfer-learning-for-nlp)
-   [[code]]
+   [[code]](https://github.com/google-research/adapter-bert)
 
 2. **AdapterFusion: Non-Destructive Task Composition for Transfer Learning**. **CoRR 2021**.
 
    *Jonas Pfeiffer, Aishwarya Kamath, Andreas Rueckle, Kyunghyun Cho, Iryna Gurevych*
 
    [[paper]](https://www.aminer.cn/pub/5eafe7e091e01198d3986605/AdapterFusion:%20Non-Destructive%20Task%20Composition%20for%20Transfer%20Learning)
-   [[code]]
+   [[code]](https://adapterhub.ml/)
 
 3. **AdaMix: Mixture-of-Adaptations for Parameter-efficient Model Tuning**.**EMNLP 2022**.
 
    *Yaqing Wang, Sahaj Agarwal, Subhabrata Mukherjee, Xiaodong Liu, Jing Gao, Ahmed Hassan Awadallah, Jianfeng Gao*.
 
    [[paper]](https://www.aminer.cn/pub/628ef0485aee126c0f82d92e/AdaMix:%20Mixture-of-Adaptations%20for%20Parameter-efficient%20Model%20Tuning)
-   [[code]]
+   [[code]](https://aka.ms/AdaMix)
 
 4. **MAD-X: An Adapter-Based Framework for Multi-Task Cross-Lingual Transfer**. **Intelligent Systems In Accounting,
  Finance &Management 2020**. 
@@ -147,14 +147,14 @@
    *Pfeiffer Jonas, Vulić Ivan,Gurevych Iryna, Ruder Sebastian*. 
  
    [[paper]](https://www.aminer.cn/pub/5eafe7e091e01198d3986542/mad-x-an-adapter-based-framework-for-multi-task-cross-lingual-transfer)
-   [[code]]
+   [[code]](https://adapterhub.ml/)
 
 5. **BAD-X: Bilingual Adapters Improve Zero-Shot Cross-Lingual Transfer**.**NAACL 2022**.
 
    *Marinela Parovic, Goran Glavas, Ivan Vulic, Anna Korhonen*.
 
    [[paper]](https://www.aminer.cn/pub/634d80f190e50fcafd4ef432/bad-x-bilingual-adapters-improve-zero-shot-cross-lingual-transfer)
-   [[code]]
+   [[code]](https://github.com/parovicm/BADX)
 
 6. **AdapterDrop - On the Efficiency of Adapters in Transformers**. **EMNLP 2021**.
 
@@ -168,21 +168,21 @@
    *Chin-Lun Fu, Zih-Ching Chen, Yun-Ru Lee, Hung-yi Lee*.
 
    [[paper]](https://www.aminer.cn/pub/62708f615aee126c0fa69008/adapterbias-parameter-efficient-token-dependent-representation-shift-for-adapters-in-nlp-tasks)
-   [[code]]
+   [[code]](https://github.com/Allen0307/AdapterBias)
 
 8. **SparseAdapter: An Easy Approach for Improving the Parameter-Efficiency of Adapters**. **arXiv 2022**.
 
    *Shwai He, Liang Ding, Daize Dong, Miao Zhang, Dacheng Tao*.
 
    [[paper]](https://www.aminer.cn/pub/6344dede90e50fcafd24d1cc/sparseadapter-an-easy-approach-for-improving-the-parameter-efficiency-of-adapters)
-   [[code]]
+   [[code]](https://github.com/Shwai-He/SparseAdapter)
 
 9. **LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning**. **NeurIPS 2022**.
 
    *Yi-Lin Sung, Jaemin Cho, Mohit Bansal*. 
 
    [[paper]](https://www.aminer.cn/pub/62a94e065aee126c0f9c02cd/lst-ladder-side-tuning-for-parameter-and-memory-efficient-transfer-learning)
-   [[code]]
+   [[code]](https://github.com/ylsung/Ladder-Side-Tuning)
 
 [//]: # ()
 [//]: # (2. **Exploring versatile generative language model via parameter-efficient transfer learning**. **EMNLP 2020**. )
@@ -267,35 +267,35 @@
    *Shibo Jie, Zhi-Hong Deng*
 
    [[paper]](https://www.aminer.cn/pub/62d0db155aee126c0f9f10a4/Convolutional%20Bypasses%20Are%20Better%20Vision%20Transformer%20Adapters)
-   [[code]]
+   [[code]](https://github.com/JieShibo/PETL-ViT)
 
 2. **AdaptFormer: Adapting Vision Transformers for Scalable Visual Recognition**. **NeurIPS 2022**.
 
    *Shoufa Chen, Chongjian Ge, Zhan Tong, Jiangliu Wang, Yibing Song, Jue Wang, Ping Luo*
 
    [[paper]](https://www.aminer.cn/pub/629041ac5aee126c0fb5dbce/AdaptFormer:%20Adapting%20Vision%20Transformers%20for%20Scalable%20Visual%20%20Recognition)
-   [[code]]
+   [[code]](https://github.com/ShoufaChen/AdaptFormer)
    
 3. **Vision Transformer Adapter for Dense Predictions**. **ICLR 2023**.
 
    *Zhe Chen, Yuchen Duan, Wenhai Wang, Junjun He, Tong Lu, Jifeng Dai, Yu Qiao*
 
    [[paper]](https://www.aminer.cn/pub/628464665aee126c0facb311/Vision%20Transformer%20Adapter%20for%20Dense%20Predictions)
-   [[code]]
+   [[code]](https://github.com/czczup/ViT-Adapter)
    
 4. **Side Adapter Network for Open-Vocabulary Semantic Segmentation**. **CVPR 2023**.
 
    *Mengde Xu, Zheng Zhang, Fangyun Wei, Han Hu, Xiang Bai*
 
    [[paper]](https://www.aminer.cn/pub/63f82b2b90e50fcafd05a1ab/Side%20Adapter%20Network%20for%20Open-Vocabulary%20Semantic%20Segmentation)
-   [[code]]
+   [[code]](https://github.com/MendelXu/SAN)
    
 5. **DTL: Disentangled Transfer Learning for Visual Recognition**. **AAAI 2024**.
 
    *Minghao Fu, Ke Zhu, Jianxin Wu*
 
    [[paper]](https://www.aminer.cn/pub/657a6a77939a5f4082cf3c41/dtl-disentangled-transfer-learning-for-visual-recognition)
-   [[code]]
+   [[code]](https://github.com/heekhero/DTL)
    
 
 #### VGM
@@ -305,7 +305,7 @@
    *Chong Mou, Xintao Wang, Liangbin Xie, Yanze Wu, Jian Zhang, Zhongang Qi, Ying Shan*
 
    [[paper]](https://www.aminer.cn/pub/63eef09d90e50fcafda0d7ce/t-i-adapter-learning-adapters-to-dig-out-more-controllable-ability-for)
-   [[code]]
+   [[code]](https://github.com/TencentARC/T2I-Adapter)
    
 
 2. **IP-Adapter: Text Compatible Image Prompt Adapter for Text-to-Image Diffusion Models**. **arXiv 2023**.
@@ -313,28 +313,28 @@
    *Hu Ye, Jun Zhang, Sibo Liu, Xiao Han, Wei Yang*
 
    [[paper]](https://www.aminer.cn/pub/64dafb293fda6d7f064e2c15/ip-adapter-text-compatible-image-prompt-adapter-for-text-to-image-diffusion)
-   [[code]]
+   [[code]](https://ip-adapter.github.io/)
    
 3. **I2V-Adapter: A General Image-to-Video Adapter for Diffusion Models**. **SIGGRAPH 2024**.
 
    *Xun Guo, Mingwu Zheng, Liang Hou, Yuan Gao, Yufan Deng, Pengfei Wan, Di Zhang, Yufan Liu, Weiming Hu, Zhengjun Zha, Haibin Huang, Chongyang Ma*
 
    [[paper]](https://www.aminer.cn/pub/658e4adb939a5f4082dbe437/I2V-Adapter:%20A%20General%20Image-to-Video%20Adapter%20for%20Diffusion%20Models)
-   [[code]]
+   [[code]]()
    
 4. **Adding Conditional Control to Text-to-Image Diffusion Models**. **ICCV 2023**.
 
    *Lvmin Zhang, Anyi Rao, Maneesh Agrawala*
 
    [[paper]](https://www.aminer.cn/pub/63eafbd690e50fcafd813ef7/Adding%20Conditional%20Control%20to%20Text-to-Image%20Diffusion%20Models)
-   [[code]]
+   [[code]](https://github.com/lllyasviel/ControlNet)
    
 5. **ControlNeXt: Powerful and Efficient Control for Image and Video Generation**. **arXiv 2024**.
 
    *Bohao Peng, Jian Wang, Yuechen Zhang, Wenbo Li, Ming-Chang Yang, Jiaya Jia*
 
    [[paper]](https://www.aminer.cn/pub/66bac1ca01d2a3fbfcd437ed/ControlNeXt:%20Powerful%20and%20Efficient%20Control%20for%20Image%20and%20Video%20Generation)
-   [[code]]
+   [[code]](https://github.com/dvlab-research/ControlNeXt)
    
 
 #### VLM
@@ -344,28 +344,28 @@
    *Renrui Zhang, Jiaming Han, Chris Liu, Peng Gao, Aojun Zhou, Xiangfei Hu, Shilin Yan, Pan Lu, Hongsheng Li, Yu Qiao*
 
    [[paper]](https://www.aminer.cn/pub/6423ac7890e50fcafd55f26b/LLaMA-Adapter:%20Efficient%20Fine-tuning%20of%20Language%20Models%20with%20Zero-init%20Attention)
-   [[code]]
+   [[code]](https://github.com/OpenGVLab/LLaMA-Adapter)
    
 2. **LLaMA-Adapter V2: Parameter-Efficient Visual Instruction Model**. **ICLR 2024**.
 
    *Peng Gao, Jiaming Han, Renrui Zhang, Ziyi Lin, Shijie Geng, Aojun Zhou, Wei Zhang, Pan Lu, Conghui He, Xiangyu Yue, Hongsheng Li, Yu Qiao*
 
    [[paper]](https://www.aminer.cn/pub/6456385bd68f896efacf2395/LLaMA-Adapter%20V2:%20Parameter-Efficient%20Visual%20Instruction%20Model)
-   [[code]]
+   [[code]](https://github.com/ZrrSkywalker/LLaMA-Adapter)
    
 3. **CLIP-Adapter: Better Vision-Language Models with Feature Adapters**. **IJCV 2024**.
 
    *Peng Gao, Shijie Geng, Renrui Zhang, Teli Ma, Rongyao Fang, Yongfeng Zhang, Hongsheng Li, Yu Qiao*
 
    [[paper]](https://www.aminer.cn/pub/6164fcc15244ab9dcb24cfa7/clip-adapter-better-vision-language-models-with-feature-adapters)
-   [[code]]
+   [[code]](https://github.com/gaopengcuhk/CLIP-Adapter)
    
 4. **Tip-Adapter: Training-free CLIP-Adapter for Better Vision-Language Modeling**. **ECCV 2022**.
 
    *Renrui Zhang, Rongyao Fang, Peng Gao, Wei Zhang, Kunchang Li, Jifeng Dai, Yu Qiao, Hongsheng Li*
 
    [[paper]](https://www.aminer.cn/pub/6189e6d05244ab9dcb76e48f/tip-adapter-training-free-clip-adapter-for-better-vision-language-modeling)
-   [[code]]
+   [[code]](https://github.com/gaopengcuhk/Tip-Adapter)
    
 
 
@@ -380,7 +380,7 @@
    *Timo Schick, Hinrich Schutze*
 
    [[paper]](https://aminer.cn/pub/5e281dc13a55ac4d187e0b1e/exploiting-cloze-questions-for-few-shot-text-classification-and-natural-language-inference)
-   [[code]]
+   [[code]](https://github.com/timoschick/pet)
    
 2. **Cutting Down on Prompts and Parameters: Simple Few-Shot Learning with Language Models**. **ACL 2022**.
 
@@ -409,7 +409,7 @@
    
 2. **The Power of Scale for Parameter-Efficient Prompt Tuning**. **EMNLP 2021**.
 
-   *Brian Lester, Rami Al-Rfou’, Noah Constant*.  
+   *Brian Lester, Rami Al-Rfou’, Noah Constant*.
   
    [[paper]](https://www.aminer.cn/pub/607ffd8d91e011772654f712/the-power-of-scale-for-parameter-efficient-prompt-tuning)
    [[code]]
@@ -426,7 +426,7 @@
    *Ningyu Zhang, Luoqiu Li, Xiang Chen, Shumin Deng, Zhen Bi, Chuanqi Tan, Fei Huang, Huajun Chen*
 
    [[paper]](https://www.aminer.cn/pub/612d9dd25244ab9dcbdfb33c/differentiable-prompt-makes-pre-trained-language-models-better-few-shot-learners)
-   [[code]]
+   [[code]](https://github.com/zjunlp/DART)
    
 5. **Y-Tuning: an Efficient Tuning Paradigm for Large-Scale Pre-Trained Models Via Label Representation Learning**. **Frontiers of Computer Science 2024**.
 
@@ -440,21 +440,21 @@
    *Yuxian Gu, Xu Han, Zhiyuan Liu, Minlie Huang*
 
    [[paper]](https://www.aminer.cn/pub/635276ab90e50fcafdb24990/ppt-pre-trained-prompt-tuning-for-few-shot-learning)
-   [[code]]
+   [[code]](https://github.com/thu-coai/PPT)
    
 7. **SPoT: Better Frozen Model Adaptation Through Soft Prompt Transfer**. **ACL 2020**.
 
    *Yuxian Gu, Xu Han, Zhiyuan Liu, Minlie Huang*
 
    [[paper]](https://www.aminer.cn/pub/616ce5a15244ab9dcbacfc38/spot-better-frozen-model-adaptation-through-soft-prompt-transfer)
-   [[code]]
+   [[code]](https://github.com/google-research/prompt-tuning/tree/main/prompt_tuning/spot)
    
 8. **On Transferability of Prompt Tuning for Natural Language Processing**. **NAACL 2022**.
 
    *Yusheng Su, Xiaozhi Wang, Yujia Qin, Chi-Min Chan, Yankai Lin, Huadong Wang, Kaiyue Wen, Zhiyuan Liu, Peng Li, Juanzi Li, Lei Hou, Maosong Sun, Jie Zhou*
 
    [[paper]](https://www.aminer.cn/pub/6191cfa05244ab9dcb16be43/on-transferability-of-prompt-tuning-for-natural-language-processing)
-   [[code]]
+   [[code]](https://github.com/thunlp/Prompt-Transferability)
    
 #### VFM
 
@@ -470,14 +470,14 @@
    *Menglin Jia, Luming Tang, Bor-Chun Chen, Claire Cardie, Serge Belongie, Bharath Hariharan, Ser-Nam Lim*
 
    [[paper]](https://www.aminer.cn/pub/623be1965aee126c0f37aafc/visual-prompt-tuning)
-   [[code]]
+   [[code]](https://github.com/kmnp/vpt)
    
 3. **Diversity-Aware Meta Visual Prompting**. **CVPR 2023**.
 
    *Qidong Huang, Xiaoyi Dong, Dongdong Chen, Weiming Zhang, Feifei Wang, Gang Hua, Nenghai Yu*
 
    [[paper]](https://www.aminer.cn/pub/641137ff90e50fcafd17bffc/diversity-aware-meta-visual-prompting)
-   [[code]]
+   [[code]](https://github.com/shikiw/DAM-VP)
    
 4. **Understanding and Improving Visual Prompting: A Label-Mapping Perspective**. **CVPR 2023**.
 
@@ -492,7 +492,7 @@
    *Junyang Wu, Xianhang Li, Chen Wei, Huiyu Wang, Alan Yuille, Yuyin Zhou, Cihang Xie*
 
    [[paper]](https://www.aminer.cn/pub/63a2794d90e50fcafd294622/unleashing-the-power-of-visual-prompting-at-the-pixel-level)
-   [[code]]
+   [[code]](https://github.com/UCSC-VLAA/EVP)
    
 6. **LION: Implicit Vision Prompt Tuning**. **AAAI 2024**.
 
@@ -508,7 +508,7 @@
    *Rinon Gal, Yuval Alaluf, Yuval Atzmon, Or Patashnik, Amit H. Bermano, Gal Chechik, Daniel Cohen-Or*
 
    [[paper]](https://www.aminer.cn/pub/63d7ae8490e50fcafdad2025/an-image-is-worth-one-word-personalizing-text-to-image-generation-using)
-   [[code]]
+   [[code]](https://textual-inversion.github.io)
    
 #### VLM
 
@@ -517,21 +517,21 @@
    *Zhou, Kaiyang, Yang, Jingkang, Loy, Chen Change, Liu, Ziwei*
 
    [[paper]](https://www.aminer.cn/pub/613192dd5244ab9dcb9e5af8/learning-to-prompt-for-vision-language-models)
-   [[code]]
+   [[code]](https://github.com/KaiyangZhou/CoOp)
    
 2. **Open-Vocabulary Semantic Segmentation with Mask-adapted CLIP**. **CVPR 2023**.
 
    *Feng Liang, Bichen Wu, Xiaoliang Dai, Kunpeng Li, Yinan Zhao, Hang Zhang, Peizhao Zhang, Peter Vajda, Diana Marculescu*
 
    [[paper]](https://www.aminer.cn/pub/6344dede90e50fcafd24d0b0/Open-Vocabulary%20Semantic%20Segmentation%20With%20Mask-Adapted%20CLIP)
-   [[code]]
+   [[code]](https://github.com/facebookresearch/ov-seg)
    
 3. **BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models**. **ICML 2023**.
 
    *Junnan Li, DONGXU LI, Silvio Savarese, Steven Hoi*
 
    [[paper]](https://www.aminer.cn/pub/64be56873fda6d7f0634f12f/blip-bootstrapping-language-image-pre-training-with-frozen-image-encoders-and-large)
-   [[code]]
+   [[code]](https://github.com/salesforce/LAVIS/tree/main/projects/blip2)
    
 
 ### [Reparameters](#content)
@@ -543,7 +543,7 @@
    *Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Weizhu Chen*
 
    [[paper]](https://www.aminer.cn/pub/60cdafae91e011329faa2589/lora-low-rank-adaptation-of-large-language-models)
-   [[code]]
+   [[code]](https://github.com/microsoft/LoRA)
    
 #### VFM
 
@@ -552,7 +552,7 @@
    *Tim Dettmers, Artidoro Pagnoni, Ari Holtzman, Luke Zettlemoyer*
 
    [[paper]](https://www.aminer.cn/pub/646d8643d68f896efa0a326e/QLoRA:%20Efficient%20Finetuning%20of%20Quantized%20LLMs)
-   [[code]]
+   [[code]](https://github.com/artidoro/qlora)
    
 2. **LoRA-FA: Memory-efficient Low-rank Adaptation for Large Language Models Fine-tuning**. **CoRR 2023**.
 
@@ -573,7 +573,7 @@
    *Peiyu Liu, Ze-Feng Gao, Wayne Xin Zhao, Z. Y. Xie, Zhong-Yi Lu, Ji-Rong Wen*
 
    [[paper]](https://www.aminer.cn/pub/60bec50591e0118491817782/enabling-lightweight-fine-tuning-for-pre-trained-language-model-compression-based-on)
-   [[code]]
+   [[code]](https://github.com/RUCAIBox/MPOP)
    
 #### VFM
 
@@ -599,7 +599,7 @@
    *Shyam Marjit, Harshit Singh, Nityanand Mathur, Sayak Paul, Chia-Mu Yu, Pin-Yu Chen*
 
    [[paper]](https://www.aminer.cn/pub/65dea27813fb2c6cf6546431/diffusekrona-a-parameter-efficient-fine-tuning-method-for-personalized-diffusion-models)
-   [[code]]
+   [[code]](https://github.com/IBM/DiffuseKronA)
    
 3. **Mix-of-Show: Decentralized Low-Rank Adaptation for Multi-Concept Customization of Diffusion Models**. **CoRR 2023**.
 
@@ -613,14 +613,14 @@
    *Surbhi Mittal, Arnav Sudan, MAYANK VATSA, RICHA SINGH, Tamar Glaser, Tal Hassner*
    
    [[paper]](https://www.aminer.cn/pub/66ac3e9801d2a3fbfc89a1b9/navigating-text-to-image-generative-bias-across-indic-languages)
-   [[code]]
+   [[code]](https://github.com/KohakuBlueleaf/LyCORIS)
    
 5. **Low-Rank Approximation for Sparse Attention in Multi-Modal LLMs**. **CVPR 2024**.
 
    *Lin Song, Yukang Chen, Shuai Yang, Xiaohan Ding, Yixiao Ge, Ying-Cong Chen, Ying Shan*
 
    [[paper]](https://www.aminer.cn/pub/66e8c12301d2a3fbfc90f94b/low-rank-approximation-for-sparse-attention-in-multi-modal-llms)
-   [[code]]
+   [[code]]()
    
 ### [Hybrid](#content)
 
@@ -631,27 +631,28 @@
    *Yuning Mao, Lambert Mathias, Rui Hou, Amjad Almahairi, Hao Ma, Jiawei Han, Wen-tau Yih, Madian Khabsa*
 
    [[paper]](https://www.aminer.cn/pub/6168f1a35244ab9dcbe2ffa9/unipelt-a-unified-framework-for-parameter-efficient-language-model-tuning)
-   [[code]]
+   [[code]](https://github.com/morningmoni/UniPELT)
    
 2. **Compacter: Efficient Low-Rank Hypercomplex Adapter Layers**. **CoRR 2021**.
 
    *Rabeeh Karimi Mahabadi, James Henderson, Sebastian Ruder*
 
    [[paper]](https://www.aminer.cn/pub/60c2ec5491e0117e30ca28b5/compacter-efficient-low-rank-hypercomplex-adapter-layers)
+   [[code]](https://github.com/rabeehk/compacter)
 
 3. **Towards a Unified View of Parameter-Efficient Transfer Learning**. **CoRR 2022**.
 
    *Junxian He, Chunting Zhou, Xuezhe Ma, Taylor Berg-Kirkpatrick, Graham Neubig*
 
    [[paper]](https://www.aminer.cn/pub/6164fcc15244ab9dcb24ce93/towards-a-unified-view-of-parameter-efficient-transfer-learning)
-   [[code]]
+   [[code]](https://github.com/jxhe/unify-parameter-efficient-tuning)
    
 4. **Parameter-Efficient Fine-Tuning Design Spaces**. **CoRR 2023**.
 
    *Jiaao Chen, Aston Zhang, Xingjian Shi, Mu Li, Alex Smola, Diyi Yang*
 
    [[paper]](https://www.aminer.cn/pub/63dcdb422c26941cf00b63f4/parameter-efficient-fine-tuning-design-spaces)
-   [[code]]
+   [[code]](https://github.com/amazon-science/peft-design-spaces)
    
 #### VFM
 
@@ -660,7 +661,7 @@
    *Yuanhan Zhang, Kaiyang Zhou, Ziwei Liu*
 
    [[paper]](https://www.aminer.cn/pub/62a2b6955aee126c0f4d8e7b/neural-prompt-search)
-   [[code]]
+   [[code]](https://github.com/Davidzhangyuanhan/NOAH)
    
 #### VGM
 
@@ -676,7 +677,7 @@
    *Bruce X. B. Yu, Jianlong Chang, Lingbo Liu, Qi Tian, Chang Wen Chen*
 
    [[paper]](https://www.aminer.cn/pub/633ba44890e50fcafdfe5020/towards-a-unified-view-on-visual-parameter-efficient-transfer-learning)
-   [[code]]
+   [[code]](https://github.com/bruceyo/V-PETL)
    
 ## Citation
 
