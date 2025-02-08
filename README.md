@@ -492,30 +492,28 @@ This survey aims to provide a comprehensive overview of PEFT techniques applied 
    [[paper]](https://www.aminer.cn/pub/60cdafae91e011329faa2589/lora-low-rank-adaptation-of-large-language-models)
    [[code]](https://github.com/microsoft/LoRA)
    
-![VFM](https://img.shields.io/badge/VFM-green)
-
-1. **QLoRA: Efficient Finetuning of Quantized LLMs**. **NeurIPS 2023**.
+2. **QLoRA: Efficient Finetuning of Quantized LLMs**. **NeurIPS 2023**.
 
    *Tim Dettmers, Artidoro Pagnoni, Ari Holtzman, Luke Zettlemoyer*
 
    [[paper]](https://www.aminer.cn/pub/646d8643d68f896efa0a326e/QLoRA:%20Efficient%20Finetuning%20of%20Quantized%20LLMs)
    [[code]](https://github.com/artidoro/qlora)
    
-2. **LoRA-FA: Memory-efficient Low-rank Adaptation for Large Language Models Fine-tuning**. **CoRR 2023**.
+3. **LoRA-FA: Memory-efficient Low-rank Adaptation for Large Language Models Fine-tuning**. **CoRR 2023**.
 
    *Longteng Zhang, Lin Zhang, Shaohuai Shi, Xiaowen Chu, Bo Li*
 
    [[paper]](https://aminer.cn/pub/64f561813fda6d7f06f26c50/lora-fa-memory-efficient-low-rank-adaptation-for-large-language-models-fine)
    [[code]]
    
-3. **Delta-LoRA: Fine-Tuning High-Rank Parameters with the Delta of Low-Rank Matrices**. **CoRR 2023**.
+4. **Delta-LoRA: Fine-Tuning High-Rank Parameters with the Delta of Low-Rank Matrices**. **CoRR 2023**.
 
    *Bojia Zi, Xianbiao Qi, Lingzhi Wang, Jianan Wang, Kam-Fai Wong, Lei Zhang*
 
    [[paper]](https://www.aminer.cn/pub/64f7fc433fda6d7f06f42b86/delta-lora-fine-tuning-high-rank-parameters-with-the-delta-of-low)
    [[code]]
    
-4. **Enabling Lightweight Fine-tuning for Pre-trained Language Model Compression Based on Matrix Product Operators**. **CoRR 2021**.
+5. **Enabling Lightweight Fine-tuning for Pre-trained Language Model Compression Based on Matrix Product Operators**. **CoRR 2021**.
 
    *Peiyu Liu, Ze-Feng Gao, Wayne Xin Zhao, Z. Y. Xie, Zhong-Yi Lu, Ji-Rong Wen*
 
@@ -540,7 +538,6 @@ This survey aims to provide a comprehensive overview of PEFT techniques applied 
    [[paper]](https://www.aminer.cn/pub/65ea8c2a13fb2c6cf630e80e/navigating-text-to-image-customization-from-lycoris-fine-tuning-to-model-evaluation)
    [[code]]
    
-
 2. **DiffuseKronA: A Parameter Efficient Fine-tuning Method for Personalized Diffusion Models**. **CoRR 2024**.
 
    *Shyam Marjit, Harshit Singh, Nityanand Mathur, Sayak Paul, Chia-Mu Yu, Pin-Yu Chen*
