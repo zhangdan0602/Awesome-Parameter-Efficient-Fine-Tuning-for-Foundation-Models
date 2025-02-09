@@ -4,12 +4,12 @@
 📃 <a href="https://arxiv.org/abs/2501.13787" target="_blank">[ReST-MCTS*]</a> 
 🌐 <a href="https://awesome-peft-for-foundation-models.github.io/" target="_blank">[Website]</a> <br>
 </p>
-
+<div style="text-align: center;">
 ![GitHub stars](https://img.shields.io/github/stars/THUDM/Awesome-Parameter-Efficient-Fine-Tuning-for-Foundation-Models.svg?color=red&style=for-the-badge) 
 ![GitHub forks](https://img.shields.io/github/forks/THUDM/Awesome-Parameter-Efficient-Fine-Tuning-for-Foundation-Models.svg?style=for-the-badge) 
 ![GitHub activity](https://img.shields.io/github/last-commit/THUDM/Awesome-Parameter-Efficient-Fine-Tuning-for-Foundation-Models?color=yellow&style=for-the-badge) 
 ![GitHub issues](https://img.shields.io/github/issues/THUDM/Awesome-Parameter-Efficient-Fine-Tuning-for-Foundation-Models?style=for-the-badge)
-
+</div>
 
 ## 🔥 <span id="head1"> *News* </span>
 * [2025/01/23]  "**Parameter-Efficient Fine-Tuning for Foundation Models**" repo is created.
