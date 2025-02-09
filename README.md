@@ -5,12 +5,14 @@
 🌐 <a href="https://awesome-peft-for-foundation-models.github.io/" target="_blank">[Website]</a> <br>
 </p>
 
-<div style="text-align: center;">
-    <img src="https://img.shields.io/github/stars/THUDM/Awesome-Parameter-Efficient-Fine-Tuning-for-Foundation-Models.svg?color=red&style=for-the-badge" alt="GitHub stars">
-    <img src="https://img.shields.io/github/forks/THUDM/Awesome-Parameter-Efficient-Fine-Tuning-for-Foundation-Models.svg?style=for-the-badge" alt="GitHub forks">
-    <img src="https://img.shields.io/github/last-commit/THUDM/Awesome-Parameter-Efficient-Fine-Tuning-for-Foundation-Models?color=yellow&style=for-the-badge" alt="GitHub activity">
-    <img src="https://img.shields.io/github/issues/THUDM/Awesome-Parameter-Efficient-Fine-Tuning-for-Foundation-Models?style=for-the-badge" alt="GitHub issues">
-</div>
+<p>
+
+![GitHub stars](https://img.shields.io/github/stars/synbol/Awesome-Parameter-Efficient-Transfer-Learning.svg?color=red&style=for-the-badge) 
+![GitHub forks](https://img.shields.io/github/forks/synbol/Awesome-Parameter-Efficient-Transfer-Learning.svg?style=for-the-badge) 
+![GitHub activity](https://img.shields.io/github/last-commit/synbol/Awesome-Parameter-Efficient-Transfer-Learning?color=yellow&style=for-the-badge) 
+![GitHub issues](https://img.shields.io/github/issues/synbol/Awesome-Parameter-Efficient-Transfer-Learning?style=for-the-badge)
+
+</p>
 
 ## 🔥 <span id="head1"> *News* </span>
 * [2025/01/23]  "**Parameter-Efficient Fine-Tuning for Foundation Models**" repo is created.
