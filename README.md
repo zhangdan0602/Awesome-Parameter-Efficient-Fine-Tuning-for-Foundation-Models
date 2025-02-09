@@ -4,15 +4,14 @@
 📃 <a href="https://arxiv.org/abs/2501.13787" target="_blank">[ReST-MCTS*]</a> 
 🌐 <a href="https://awesome-peft-for-foundation-models.github.io/" target="_blank">[Website]</a> <br>
 </p>
-
+<div align=center>
 <p>
-
 ![GitHub stars](https://img.shields.io/github/stars/synbol/Awesome-Parameter-Efficient-Transfer-Learning.svg?color=red&style=for-the-badge) 
 ![GitHub forks](https://img.shields.io/github/forks/synbol/Awesome-Parameter-Efficient-Transfer-Learning.svg?style=for-the-badge) 
 ![GitHub activity](https://img.shields.io/github/last-commit/synbol/Awesome-Parameter-Efficient-Transfer-Learning?color=yellow&style=for-the-badge) 
 ![GitHub issues](https://img.shields.io/github/issues/synbol/Awesome-Parameter-Efficient-Transfer-Learning?style=for-the-badge)
-
 </p>
+</div>
 
 ## 🔥 <span id="head1"> *News* </span>
 * [2025/01/23]  "**Parameter-Efficient Fine-Tuning for Foundation Models**" repo is created.
