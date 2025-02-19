@@ -1,7 +1,7 @@
 # Parameter-Efficient Fine-Tuning for Foundation Models
 
 <p align="center">
-📃 <a href="https://arxiv.org/abs/2501.13787" target="_blank">[ReST-MCTS]</a> 
+📃 <a href="https://arxiv.org/abs/2501.13787" target="_blank">[Paper]</a> 
 🌐 <a href="https://awesome-peft-for-foundation-models.github.io/" target="_blank">[Website]</a> <br>
 </p>
 <div align=center>
